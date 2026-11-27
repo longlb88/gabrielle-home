@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Class Scheduler</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--tx:#1d1d1b;--mu:#6b6b66;--bd:#d9d9d3;--ac:#2f6fed;--hd:#ececE6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171716;--card:#222221;--tx:#ececE8;--mu:#9a9a94;--bd:#3a3a37;--ac:#6c9cff;--hd:#2c2c2a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171716;--card:#222221;--tx:#ececE8;--mu:#9a9a94;--bd:#3a3a37;--ac:#6c9cff;--hd:#2c2c2a;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 12px}h2{font-size:16px;margin:24px 0 8px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+button,input,select{font:inherit;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:6px 10px}
+button{cursor:pointer}button:hover{border-color:var(--ac)}button.p{background:var(--ac);color:#fff;border-color:var(--ac)}
+.wk{font-weight:600;min-width:210px;text-align:center}
+.wrap{overflow-x:auto;border:1px solid var(--bd);border-radius:10px;background:var(--card);max-width:100%}
+table{border-collapse:separate;border-spacing:0;width:100%}
+th,td{border-right:1px solid var(--bd);border-bottom:1px solid var(--bd);padding:4px 6px;white-space:nowrap;text-align:center;font-size:12px}
+th{background:var(--hd);position:sticky;top:0}
+td.t,th.t{position:sticky;left:0;text-align:left;background:var(--hd);font-weight:600;z-index:2;min-width:110px}
+td.c{min-width:92px;height:30px;cursor:pointer;color:#111}td.c:hover{outline:2px solid var(--ac);outline-offset:-2px}
+td.c.x{background:repeating-linear-gradient(45deg,#bbb,#bbb 4px,#ddd 4px,#ddd 8px)}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.leg{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.leg span{padding:2px 8px;border-radius:6px;font-size:11px;color:#111;border:1px solid var(--bd)}
+dialog{border:1px solid var(--bd);border-radius:12px;background:var(--card);color:var(--tx);padding:16px;width:min(340px,92vw)}
+dialog::backdrop{background:#0006}dialog input{width:100%;margin:8px 0}
+.row{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}.mu{color:var(--mu);font-size:12px}
+.tot td{font-weight:700;background:var(--hd)}
+td.c.off{background:repeating-linear-gradient(45deg,#f2a9a9,#f2a9a9 4px,#fde3e3 4px,#fde3e3 8px)}
+td.c.bad{outline:2px solid #d33;outline-offset:-2px;font-weight:700}
+.warn{background:#fdecec;color:#7a1818;border:1px solid #e9a5a5;border-radius:8px;padding:8px 10px;margin-bottom:10px;font-size:13px}
+.gr td{background:var(--hd);color:var(--ac);font-weight:700;font-size:11px;padding:2px 6px;text-align:left}
+</style></head><body>
+<h1>Class Scheduler <span id="st" class="mu" style="font-size:12px;font-weight:400"></span></h1>
+<div class="bar">
+ <button id="prev">‹</button><span class="wk" id="wk"></span><button id="next">›</button>
+ <select id="wsel"></select>
+ <button id="newwk" class="p">+ New week</button>
+ <button id="addt">Teachers</button><button id="offb">+ Day off</button>
+ <button id="csv">Export CSV</button>
+ <button id="reset">Reset</button>
+</div>
+<div id="warn" class="warn" hidden></div>
+<div class="wrap"><table id="grid"></table></div>
+<div class="leg" id="leg"></div>
+<p class="mu">Click a cell to enter a class code such as <b>YLC2-C2602AF</b> (code + class id; ending AF/AV). Type <b>X</b> to mark a slot unavailable. Changes save automatically in this browser.</p>
+<h2>Teacher days off</h2>
+<div class="wrap"><table id="offt"></table></div>
+<p class="mu">Days off appear as red stripes in the schedule. If a class is still scheduled on a day off, its cell gets a red outline and a warning appears above the grid.</p>
+<h2>Hours <select id="scope"><option value="w">This week</option><option value="a">All weeks</option></select></h2>
+<div class="wrap"><table id="sum"></table></div>
+<h2>Extra students by class</h2>
+<div class="bar">
+ <input id="scls" list="clist" autocomplete="off" placeholder="Class code, e.g. TUOND-2603AF" style="flex:1;min-width:200px"><datalist id="clist"></datalist>
+ <input id="sname" placeholder="Student name" style="flex:1;min-width:150px">
+ <input id="snote" placeholder="Note (optional)" style="flex:1;min-width:120px">
+ <button id="sadd" class="p">Add student</button>
+ <button id="scsv">Export students CSV</button>
+</div>
+<div class="wrap"><table id="stu"></table></div>
+<p class="mu" id="sinfo"></p>
+<dialog id="odlg"><b>Record day off</b>
+ <select id="ot" style="width:100%;margin-top:8px"></select>
+ <div class="mu">From</div><input id="of" type="date"><div class="mu">To</div><input id="oe" type="date">
+ <div class="mu">Reason</div><input id="or" list="rlist" autocomplete="off" placeholder="Sick leave, personal, annual leave…"><datalist id="rlist"><option value="Sick leave"><option value="Personal"><option value="Annual leave"><option value="Other"></datalist>
+ <div class="row"><button id="ox">Cancel</button><button id="os" class="p">Save</button></div></dialog>
+<dialog id="tdlg" style="width:min(520px,94vw)"><b>Manage teachers</b>
+ <div class="mu">Use ▲ ▼ to move a teacher, and pick a group (EX, VN or TA) to cluster them. “Sort by group” orders everyone EX, VN, TA, then ungrouped.</div>
+ <div id="tlist" style="max-height:55vh;overflow:auto;margin:8px 0"></div>
+ <div class="bar"><input id="tnew" placeholder="New teacher code" style="flex:1;min-width:120px;width:auto"><select id="tgnew"></select><button id="tadd" class="p">Add</button></div>
+ <div class="row"><button id="tsort">Sort by group</button><button id="tclose">Done</button></div></dialog>
+<dialog id="dlg"><b id="dt"></b><div class="mu" id="ds"></div>
+ <input id="di" list="codes" autocomplete="off" placeholder="e.g. SKE3-D2601AV"><datalist id="codes"></datalist>
+ <div class="mu" id="dh"></div>
+ <div class="row"><button id="dst">Students</button><button id="dc">Clear</button><button id="dx">Cancel</button><button id="ds2" class="p">Save</button></div></dialog>
+<script>
+const SEED={"codes": {"HK1": 90, "HK2": 90, "HK3": 90, "HK4": 90, "HK5": 90, "HK6": 90, "HK7": 90, "HK8": 90, "SKE1": 120, "SKE2": 120, "SKE3": 120, "SKE4": 120, "SKE5": 120, "SKE6": 120, "SKE7": 120, "SKE8": 120, "SKG1": 120, "SKG2": 120, "SKG3": 120, "SKG4": 120, "SKG5": 120, "SKG6": 120, "SKG7": 120, "SKG8": 120, "PYL1": 120, "PYL2": 120, "PYL3": 120, "YLC1": 120, "YLC2": 120, "YLC3": 120, "YLC4": 120, "YLC5": 120, "YLC6": 120, "YLC7": 120, "YLC8": 120, "YLC9": 120, "YLS1": 120, "YLS2": 120, "YLS3": 120, "YLS4": 120, "YLS5": 120, "YLS6": 120, "FD": 120, "ELE1": 120, "ELE2": 120, "PIL1": 120, "PIL2": 120, "IL4.0": 120, "IL5.0": 120, "IL6.0": 120, "IL7.0": 120, "TUOND": 60, "TUIL": 60, "CORP": 120}, "colors": {"YLC": "#FFE599", "PYL": "#F9CB9C", "TUOND": "#B6D7A8", "PIL": "#A4C2F4", "SKG": "#F4CCCC", "ELE": "#A2C4C9", "HK": "#00FFFF", "PT": "#FFFF00", "IL": "#0B5394", "YLS": "#F6B26B", "FD": "#B7E1CD", "SKE": "#990000", "CORP": "#00B0F0", "TUIL": "#B4C6E7"}, "teachers": ["BD.QUYEN.N1", "HUYEN.N17", "CASSIUS.P", "SUB TEACHERS", "DUYEN.P7", "QUYNH.D13", "BICH.N6", "NGUYEN.D8", "LINH.N90"], "weeks": {"2026-11-02": {"BD.QUYEN.N1": ["YLC2-C2602AF", "", "", "ELE1-D2601AV", "", "PIL1N-D2601AV", "HK3-C2602AV", "ELE1-D2601AV", "TUOND-2603AF", "IL5.0-D2607AF", "", "CAM-Ab2601AF", "", "", "IL5.0-D2607AF", "", "CAM-Ab2601AF", "IL5.0-B2603AF", "IL4.0-C2601AV"], "HUYEN.N17": ["HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "YLC1-D2601AV", "", "SKE3-D2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "YLC4-B2601AV", "SKE1-C2601AV", "", "SKE3-Aa2601AV", "", "", ""], "CASSIUS.P": ["", "SKE3-D2601AV", "HK3-C2602AV", "", "HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "YLC1-D2601AV", "SKE1-C2601AV", "", "SKE3-Aa2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "YLC4-B2601AV", ""], "SUB TEACHERS": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "DUYEN.P7": ["X", "HK6-D2601AV", "", "", "", "HK6-D2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "", "SKE1-C2601AV", "", "SKE6-Aa2601AV", "", "", ""], "QUYNH.D13": ["YLC3-C2603AF", "HK6-D2601AV", "HK3-C2602AV", "", "SKG3-C2602AF", "HK6-D2601AV", "HK3-C2602AV", "", "", "", "SKE7-Aa2601AF", "SKG1-Ab2601AF", "", "", "", "SKE7-Aa2601AF", "SKG1-Ab2601AF", "", ""], "BICH.N6": ["HK3-C2601AV", "SKE3-D2601AV", "", "", "HK3-C2601AV", "SKE3-D2601AV", "", "", "", "", "SKE1-Aa2603AF", "", "", "", "", "SKE1-Aa2603AF", "", "", ""], "NGUYEN.D8": ["", "", "HK3-C2602AV", "YLC1-D2601AV", "HK3-C2601AV", "", "HK3-C2602AV", "YLC1-D2601AV", "", "", "SKE3-Aa2601AV", "", "", "", "", "SKE3-Aa2601AV", "", "", ""], "LINH.N90": ["", "", "SKE6-C2601AV", "", "", "", "SKE6-C2601AV", "", "", "", "", "", "", "", "", "", "", "", ""]}, "2026-11-09": {"BD.QUYEN.N1": ["TUOND-2601AF", "YLC2-D2606AF", "", "ELE1-D2601AV", "", "PIL1n-D2601AV", "HK3-C2602AV", "ELE1-D2601AV", "", "IL4.0-D2602Y", "SKE1-Aa2601AV", "", "", "IL4.0-C2601AV", "IL6.0-D2605AF", "", "", "", "S"], "HUYEN.N17": ["HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "YLC1-D2601AV", "", "SKE3-D2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "YLC4-B2601AV", "SKE1-C2601AV", "", "SKE3-Aa2601AV", "YLC7-Ab2601AV", "", ""], "CASSIUS.P": ["", "SKE3-D2601AV", "HK3-C2602AV", "", "HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "YLC1-D2601AV", "SKE1-C2601AV", "", "SKE3-Aa2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "YLC1-Ba2601AA", "YLC4-C2606AA"], "SUB TEACHERS": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "YLC4-B2601AV", "IL4.0-C2601AV"], "DUYEN.P7": ["X", "HK6-D2601AV", "", "", "", "HK6-D2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "", "SKE1-C2601AV", "", "SKE6-Aa2601AV", "", "", ""], "QUYNH.D13": ["SKG3-C2606AF", "HK6-D2601AV", "HK3-C2602AV", "", "SKG3-C2606AF", "HK6-D2601AV", "HK3-C2602AV", "", "", "", "S", "S", "", "", "", "SKE1-Aa2601AV", "S", "", ""], "BICH.N6": ["HK3-C2601AV", "SKE3-D2601AV", "", "", "HK3-C2601AV", "SKE3-D2601AV", "", "", "", "", "SKE1-Aa2601AV", "", "", "", "", "", "", "", ""], "NGUYEN.D8": ["X", "X", "HK3-C2602AV", "YLC1-D2601AV", "HK3-C2601AV", "", "HK3-C2602AV", "YLC1-D2601AV", "", "", "SKE3-Aa2601AV", "", "", "", "", "SKE3-Aa2601AV", "", "", ""], "LINH.N90": ["", "", "SKE6-C2601AV", "", "", "", "SKE6-C2601AV", "", "", "", "", "", "", "", "", "", "", "", ""]}, "2026-11-16": {"BD.QUYEN.N1": ["", "", "", "ELE1-D2601AV", "", "PIL1N-D2601AV", "HK3-C2602AV", "", "", "IL4.0-D2602Y", "SKE1-Aa2601AV", "", "", "", "IL6.0-D2605AF", "", "", "IL5.0-B2603AF", ""], "HUYEN.N17": ["HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "YLC1-D2601AV", "", "SKE3-D2601AV", "", "", "", "", "SKE6-Aa2601AV", "", "YLC4-B2601AV", "SKE1-C2601AV", "", "SKE3-Aa2601AV", "YLC7-Ab2601AV", "", ""], "CASSIUS.P": ["", "SKE3-D2601AV", "HK3-C2602AV", "", "HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "YLC1-D2601AV", "SKE1-C2601AV", "", "SKE3-Aa2601AV", "YLC7-Ab2601AV", "", "", "", "SKE6-Aa2601AV", "", "YLC4-B2601AV", ""], "SUB TEACHERS": ["", "", "", "FD-D2601AV", "", "", "", "ELE1-D2601AV", "", "", "", "", "", "", "", "", "", "", ""], "DUYEN.P7": ["", "SKE6-D2601AF", "", "", "", "SKE6-D2601AF", "", "", "", "", "", "", "YLC3-B2603AF", "", "", "", "", "YLC3-B2603AF", ""], "QUYNH.D13": ["YLC3-C2603AF", "PYL2-D2601AF", "", "", "YLC3-C2603AF", "PYL2-D2601AF", "", "", "", "", "", "SKG1-Ab2601AF", "", "", "", "SKE7-Aa2601AF", "SKG1-Ab2601AF", "", ""], "BICH.N6": ["YLC1-C2607AF", "YLC3-D2604AF", "", "", "YLC1-C2607AF", "YLC3-D2604AF", "", "", "", "", "SKE7-Aa2601AF", "YLC1-Ab2602AF", "", "", "", "", "YLC1-Ab2602AF", "", ""], "NGUYEN.D8": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "LINH.N90": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}, "2026-11-23": {"BD.QUYEN.N1": ["", "PIL1n-D2601AV", "", "", "SKE7-C2605AF", "CORP2-COTECCONS", "SKE8-C2607AF", "PIL1n-D2602AF", "", "IL5.0-D2607AF", "", "YLC1-Ab2602AF", "IL5.0-B2603AF", "", "IL5.0-D2607AF", "", "", "", ""], "HUYEN.N17": ["HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "", "YLC2-C2606AF", "", "", "", "", "", "", "", "YLC4-B2601AV", "YLC5-C2602AF", "", "", "", "", ""], "CASSIUS.P": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "SUB TEACHERS": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "DUYEN.P7": ["", "SKE6-D2601AF", "", "", "", "SKE6-D2601AF", "", "", "", "", "", "", "YLC3-B2603AF", "", "", "", "", "YLC3-B2603AF", ""], "QUYNH.D13": ["YLC3-C2603AF", "PYL2-D2601AF", "", "", "YLC3-C2603AF", "PYL2-D2601AF", "", "", "", "", "SKE7-Aa2601AF", "SKG1-Ab2601AF", "", "", "", "SKE7-Aa2601AF", "SKG1-Ab2601AF", "", ""], "BICH.N6": ["YLC1-C2607AF", "YLC3-D2604AF", "", "", "YLC1-C2607AF", "YLC3-D2604AF", "", "", "", "", "", "YLC1-Ab2602AF", "", "", "", "", "YLC1-Ab2602AF", "", ""], "NGUYEN.D8": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "LINH.N90": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}, "2026-11-30": {"BD.QUYEN.N1": ["", "PIL1n-D2601AV", "", "ELE1-D2601AV", "SKE7-C2605AF", "PIL1N-D2601AV", "", "ELE1-D2601AV", "TUOND-2604AF", "IL5.0-D2607AF", "", "YLC1-Ab2602AF", "PT", "PT", "IL5.0-D2607AF", "", "TUOND-2601AF", "IL5.0-B2603AF", ""], "HUYEN.N17": ["HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "", "YLC2-C2606AF", "", "", "", "", "", "", "", "YLC4-B2601AV", "SKE1-C2601AV", "", "", "", "", ""], "CASSIUS.P": ["", "", "", "", "HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "", "", "", "", "", "YLC4-B2601AV", "", "", "", "", "", ""], "SUB TEACHERS": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "DUYEN.P7": ["HK3-C2601AV", "HK6-D2601AV", "", "S", "HK3-C2601AV", "HK6-D2601AV", "", "S", "X", "X", "X", "X", "", "SKE1-C2601AV", "", "X", "X", "", ""], "QUYNH.D13": ["SKG3-C2606AF", "", "", "S", "SKG3-C2606AF", "", "", "S", "X", "X", "X", "X", "", "X", "X", "S", "S", "", "X"], "BICH.N6": ["YLC1-C2607AF", "", "X", "X", "YLC1-C2607AF", "", "X", "X", "X", "X", "SKE1-Aa2603AF", "YLC1-Ab2602AF", "X", "X", "X", "SKE1-Aa2603AF", "YLC1-Ab2602AF", "X", "X"], "NGUYEN.D8": ["X", "X", "SKG1-C2606AF", "", "S", "X", "SKG1-C2606AF", "", "X", "X", "SKE5-Aa2604AF", "", "", "", "X", "", "", "", "X"], "LINH.N90": ["X", "X", "SKE6-C2601AV", "", "X", "X", "SKE6-C2601AV", "", "X", "X", "X", "X", "", "", "X", "X", "", "", "X"]}, "2026-12-07": {"BD.QUYEN.N1": ["", "", "", "ELE1-D2601AV", "", "PIL1n-D2601AV", "", "ELE1-D2601AV", "", "IL5.0-D2607AF", "", "", "", "", "IL5.0-D2607AF", "", "", "IL5.0-B2603AF", "S"], "HUYEN.N17": ["HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "", "", "SKE3-D2601AV", "", "YLC1-D2601AV", "", "", "", "", "YLC4-B2601AV", "SKE1-C2601AV", "", "", "", "", ""], "CASSIUS.P": ["", "", "", "", "HK3-C2601AV", "HK6-D2601AV", "SKE6-C2601AV", "", "SKE1-C2601AV", "", "", "", "", "", "", "", "", "YLC4-B2601AV", ""], "SUB TEACHERS": ["", "PIL1n-D2601AV", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "IL4.0-C2601AV"], "DUYEN.P7": ["HK3-C2601AV", "HK6-D2601AV", "", "", "HK3-C2601AV", "HK6-D2601AV", "", "", "", "", "", "", "", "SKE1-C2601AV", "", "", "", "", ""], "QUYNH.D13": ["SKG3-C2606AF", "", "", "", "SKG3-C2606AF", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "BICH.N6": ["YLC1-C2607AF", "", "X", "X", "", "SKE3-D2601AV", "", "", "", "", "SKE1-Aa2603AF", "YLC1-Ab2602AF", "", "", "", "SKE1-Aa2603AF", "YLC1-Ab2602AF", "", ""], "NGUYEN.D8": ["X", "X", "SKG1-C2606AF", "", "", "", "SKG1-C2606AF", "", "", "", "SKE5-Aa2604AF", "", "", "", "", "SKE5-Aa2604AF", "", "", ""], "LINH.N90": ["X", "X", "SKE6-C2601AV", "", "", "", "SKE6-C2601AV", "", "", "", "", "", "", "", "", "", "", "", ""]}}};
+const SLOTS=['Mon/C','Mon/D','Tue/C','Tue/D','Wed/C','Wed/D','Thu/C','Thu/D','Fri/C','Fri/D','Sat/Aa','Sat/Ab','Sat/B','Sat/C','Sat/D','Sun/Aa','Sun/Ab','Sun/B','Sun/C'];
+const DAYN=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+const $=s=>document.getElementById(s);
+let S;try{S=JSON.parse(localStorage.getItem('sched-v1'))}catch(e){}
+if(!S||!S.weeks)S={teachers:SEED.teachers,weeks:SEED.weeks};
+S.students=S.students||{};S.groups=S.groups||{};S.offs=S.offs||[];
+const CODES=SEED.codes,COL=SEED.colors;
+const CK=Object.keys(CODES).sort((a,b)=>b.length-a.length);
+let cur=Object.keys(S.weeks).sort().pop();
+let DB=null,tmr=null;const sent={};
+function setSt(t){const e=$('st');if(e)e.textContent=t}
+function docMap(){const m={'app/config':{teachers:S.teachers,groups:S.groups},'app/students':{map:S.students},'app/offs':{list:S.offs}};Object.keys(S.weeks).forEach(w=>m['weeks/'+w]={rows:S.weeks[w]});return m}
+async function push(){tmr=null;const m=docMap();for(const k in m){const j=JSON.stringify(m[k]);if(sent[k]===j)continue;try{await DB.doc(k).set(m[k]);sent[k]=j}catch(e){setSt('Not saved ('+((e&&e.code)||'error')+'). You may have view-only access.');return}}setSt('Synced ✓')}
+const save=()=>{try{localStorage.setItem('sched-v1',JSON.stringify(S))}catch(e){}if(DB){clearTimeout(tmr);tmr=setTimeout(push,500);setSt('Saving…')}};
+function applyDoc(k,d){if(sent[k]!==undefined&&JSON.stringify(docMap()[k])!==sent[k])return;
+ if(k==='app/config'){if(d.teachers)S.teachers=d.teachers;S.groups=d.groups||{}}
+ else if(k==='app/students')S.students=d.map||{};
+ else if(k==='app/offs')S.offs=d.list||[];
+ else if(d.rows)S.weeks[k.slice(6)]=d.rows;
+ sent[k]=JSON.stringify(docMap()[k])}
+async function initSync(){let c=null;try{c=await claude.use('db')}catch(e){}
+ if(!c){setSt('Offline mode: saved on this device only');return}
+ DB=c;setSt('Connecting…');let seeded=false;const t=setTimeout(()=>setSt('Cannot reach the server yet. Showing the last copy.'),10000);
+ const ch=()=>{try{localStorage.setItem('sched-v1',JSON.stringify(S))}catch(e){}if(!$('dlg').open&&!$('tdlg').open){render();stuRender()}};
+ DB.doc('app/config').onSnapshot(s=>{if(!s.fromCache){clearTimeout(t);if(!tmr)setSt('Synced ✓')}
+  if(s.exists){applyDoc('app/config',s.data());ch()}else if(!s.fromCache&&!seeded){seeded=true;push()}},()=>setSt('Sync error'));
+ DB.doc('app/offs').onSnapshot(s=>{if(s.exists){applyDoc('app/offs',s.data());ch()}},()=>{});
+ DB.doc('app/students').onSnapshot(s=>{if(s.exists){applyDoc('app/students',s.data());ch()}},()=>{});
+ DB.collection('weeks').onSnapshot(q=>{q.docs.forEach(d=>applyDoc('weeks/'+d.id,d.data()));if(!S.weeks[cur])cur=Object.keys(S.weeks).sort().pop();ch()},()=>{})}
+const dayOf=i=>{const s=SLOTS[i].slice(0,3);return DAYN.indexOf(s)};
+const addDays=(w,n)=>{const d=new Date(w+'T00:00:00');d.setDate(d.getDate()+n);return d};
+const fmt=d=>d.getDate()+'/'+(d.getMonth()+1);
+const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const toMon=s=>{const d=new Date(s+'T00:00:00');d.setDate(d.getDate()-((d.getDay()+6)%7));return iso(d)};
+const parse=v=>{if(!v)return null;const u=v.toUpperCase();const k=CK.find(c=>u.startsWith(c));return k?{k,h:CODES[k]/60,u}:null};
+const colorOf=v=>{const p=parse(v);if(!p)return v&&v.toUpperCase()!=='X'?'#e8e8e8':'';const m=Object.keys(COL).filter(k=>p.u.startsWith(k)).sort((a,b)=>b.length-a.length)[0];return COL[m]||'#e8e8e8'};
+const lum=h=>{const n=parseInt(h.slice(1),16);return ((n>>16)*299+((n>>8)&255)*587+(n&255)*114)/1000};
+function cat(p){const k=p.k;if(k.startsWith('SKE')||k.startsWith('SKG'))return 0;if(k.startsWith('PYL')||k.startsWith('YL'))return 1;if(k.startsWith('ELE')||k.startsWith('IL'))return 2;if(k==='CORP')return 3;return 4}
+function render(){
+ const wk=S.weeks[cur]||(S.weeks[cur]={});
+ $('wk').textContent='Week '+fmt(addDays(cur,0))+' – '+fmt(addDays(cur,6))+'/'+addDays(cur,6).getFullYear();
+ const ws=Object.keys(S.weeks).sort();
+ $('wsel').innerHTML=ws.map(w=>`<option value="${w}"${w===cur?' selected':''}>${fmt(addDays(w,0))}/${addDays(w,0).getFullYear()}</option>`).join('');
+ let h='<tr><th class="t">Teacher</th>'+SLOTS.map((s,i)=>`<th>${s}<br><span class="mu">${fmt(addDays(cur,dayOf(i)))}</span></th>`).join('')+'</tr>';
+ let lg=null;const anyG=S.teachers.some(x=>S.groups[x]);S.teachers.forEach(t=>{const r=wk[t]||(wk[t]=Array(19).fill(''));const g=S.groups[t]||'';if(anyG&&g!==lg)h+=`<tr class="gr"><td class="t">${g||'Ungrouped'}</td><td colspan="19"></td></tr>`;lg=g;
+  h+=`<tr><td class="t">${t}</td>`+r.map((v,i)=>{const x=v.toUpperCase()==='X';const o=offOf(t,iso(addDays(cur,dayOf(i))));const c=colorOf(v);return `<td class="c${x?' x':''}${o?(v&&!x?' off bad':' off'):''}" ${o?`title="Day off: ${esc(o.reason||'')}" `:''}data-t="${t}" data-i="${i}"${c&&!x?` style="background:${c};${lum(c)<110?'color:#fff':''}"`:''}>${o&&!v?'OFF':esc(v)}${(S.students[v]||[]).length?' 👤'+S.students[v].length:''}</td>`}).join('')+'</tr>'});
+ $('grid').innerHTML=h;summary();offRender()}
+function summary(){
+ const ws=$('scope').value==='w'?[cur]:Object.keys(S.weeks);
+ let h='<tr><th class="t">Teacher</th><th>SKE/SKG</th><th>PYL/YL</th><th>ELE/IL</th><th>Corp</th><th>Other</th><th>Total hrs</th><th>Cover hrs (not AV)</th></tr>';
+ const T=Array(6).fill(0);
+ let lg=null;const anyG=S.teachers.some(x=>S.groups[x]);S.teachers.forEach(t=>{const a=Array(6).fill(0);const g=S.groups[t]||'';if(anyG&&g!==lg)h+=`<tr class="gr"><td class="t">${g||'Ungrouped'}</td><td colspan="7"></td></tr>`;lg=g;
+  ws.forEach(w=>((S.weeks[w]||{})[t]||[]).forEach(v=>{const p=parse(v);if(!p)return;a[cat(p)]+=p.h;a[5]+=p.h;if(!p.u.endsWith('AV')&&p.k!=='CORP')a[6]=(a[6]||0)+p.h}));
+  a[6]=a[6]||0;const tot=a[5];const row=[a[0],a[1],a[2],a[3],a[4],tot,a[6]];row.forEach((x,i)=>T[i]=(T[i]||0)+x);
+  h+=`<tr><td class="t">${t}</td>`+row.map(x=>`<td class="n">${+x.toFixed(2)}</td>`).join('')+'</tr>'});
+ h+='<tr class="tot"><td class="t">Total</td>'+T.slice(0,7).map(x=>`<td class="n">${+(x||0).toFixed(2)}</td>`).join('')+'</tr>';
+ $('sum').innerHTML=h}
+let ed=null;
+$('grid').onclick=e=>{const c=e.target.closest('td.c');if(!c)return;ed={t:c.dataset.t,i:+c.dataset.i};
+ const v=S.weeks[cur][ed.t][ed.i];$('dt').textContent=ed.t;$('ds').textContent=SLOTS[ed.i]+' · '+fmt(addDays(cur,dayOf(ed.i)));
+ $('di').value=v;hint();$('dlg').showModal();$('di').focus();$('di').select()};
+function hint(){const v=$('di').value.trim();const p=parse(v);$('dh').textContent=!v?'':v.toUpperCase()==='X'?'Unavailable':p?`${p.k} · ${p.h} h`:'Unknown code (saved, but not counted in hours)';
+ const clash=v&&ed&&S.teachers.filter(t=>t!==ed.t&&(S.weeks[cur][t]||[])[ed.i]&&S.weeks[cur][t][ed.i].toUpperCase()===v.toUpperCase());
+ if(clash&&clash.length)$('dh').textContent+=' ⚠ also assigned to '+clash.join(', ')+' in this slot'}
+$('di').oninput=hint;
+const done=v=>{if(ed){S.weeks[cur][ed.t][ed.i]=v.trim();save();render()}$('dlg').close()};
+$('ds2').onclick=()=>done($('di').value);$('dc').onclick=()=>done('');$('dx').onclick=()=>$('dlg').close();
+$('di').onkeydown=e=>{if(e.key==='Enter')done($('di').value)};
+$('prev').onclick=()=>go(-7);$('next').onclick=()=>go(7);
+function go(n){const w=iso(addDays(cur,n));if(!S.weeks[w])newWeek(w);else{cur=w;render()}}
+function newWeek(w){const prev=S.weeks[cur];S.weeks[w]={};
+ const copy=confirm('Copy the current week’s classes into the new week? (Cancel = start empty)');
+ S.teachers.forEach(t=>S.weeks[w][t]=copy&&prev&&prev[t]?[...prev[t]]:Array(19).fill(''));cur=w;save();render()}
+$('newwk').onclick=()=>{const v=prompt('Monday of the new week (YYYY-MM-DD)',iso(addDays(cur,7)));if(!v||isNaN(new Date(v)))return;const w=toMon(v);if(S.weeks[w]){cur=w;render()}else newWeek(w)};
+$('wsel').onchange=e=>{cur=e.target.value;render()};
+$('scope').onchange=summary;
+$('addt').onclick=()=>{tmRender();$('tdlg').showModal()};
+$('reset').onclick=()=>{if(confirm('Discard schedule edits and restore the original Excel data? This also resets the shared online copy. (Student lists are kept)')){try{localStorage.removeItem('sched-v1')}catch(e){}S={teachers:SEED.teachers,students:S.students||{},groups:S.groups||{},offs:S.offs||[],weeks:JSON.parse(JSON.stringify(SEED.weeks))};cur=Object.keys(S.weeks).sort().pop();save();render()}};
+$('csv').onclick=()=>{const q=v=>'"'+String(v).replace(/"/g,'""')+'"';
+ const L=[['Week Start','Teacher',...SLOTS].map(q).join(',')];
+ Object.keys(S.weeks).sort().forEach(w=>S.teachers.forEach(t=>L.push([w,t,...((S.weeks[w]||{})[t]||Array(19).fill(''))].map(q).join(','))));
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+L.join('\n')],{type:'text/csv'}));a.download='schedule-log.csv';a.click()};
+$('codes').innerHTML=Object.keys(CODES).map(c=>`<option value="${c}-">`).join('');
+$('leg').innerHTML=Object.entries(COL).map(([k,c])=>`<span style="background:${c};${lum(c)<110?'color:#fff':''}">${k}</span>`).join('');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function allCodes(){const s=new Set();Object.values(S.weeks).forEach(w=>Object.values(w).forEach(r=>r.forEach(v=>{if(v&&v.toUpperCase()!=='X')s.add(v)})));Object.keys(S.students).forEach(k=>s.add(k));return [...s].sort((a,b)=>(b.startsWith('TUOND')-a.startsWith('TUOND'))||a.localeCompare(b))}
+function stuRender(){
+ $('clist').innerHTML=allCodes().map(c=>`<option value="${esc(c)}">`).join('');
+ const k=$('scls').value.trim(),L=S.students[k]||[];
+ $('stu').innerHTML='<tr><th>#</th><th>Student</th><th>Note</th><th>Added</th><th></th></tr>'+(L.length?L.map((s,i)=>`<tr><td class="n">${i+1}</td><td style="text-align:left">${esc(s.name)}</td><td style="text-align:left">${esc(s.note||'')}</td><td>${s.added||''}</td><td><button data-r="${i}">Remove</button></td></tr>`).join(''):'<tr><td colspan="5" class="mu">No extra students recorded for this class yet.</td></tr>');
+ const ks=Object.keys(S.students).filter(x=>S.students[x].length);
+ $('sinfo').innerHTML=ks.length?'Classes with extra students: '+ks.map(x=>`<button data-c="${esc(x)}">${esc(x)} (${S.students[x].length})</button>`).join(' '):''}
+function addStu(){const k=$('scls').value.trim(),n=$('sname').value.trim();if(!k||!n)return;
+ const L=S.students[k]||(S.students[k]=[]);if(L.some(s=>s.name.toLowerCase()===n.toLowerCase())){alert('This student is already in the class');return}
+ L.push({name:n,note:$('snote').value.trim(),added:iso(new Date())});save();$('sname').value='';$('snote').value='';render();stuRender();$('sname').focus()}
+$('sadd').onclick=addStu;$('sname').onkeydown=e=>{if(e.key==='Enter')addStu()};
+$('scls').oninput=stuRender;
+$('stu').onclick=e=>{const b=e.target.closest('button[data-r]');if(!b)return;const k=$('scls').value.trim();if(confirm('Remove this student?')){S.students[k].splice(+b.dataset.r,1);if(!S.students[k].length)delete S.students[k];save();render();stuRender()}};
+$('sinfo').onclick=e=>{const b=e.target.closest('button[data-c]');if(b){$('scls').value=b.dataset.c;stuRender()}};
+$('dst').onclick=()=>{const v=$('di').value.trim();$('dlg').close();if(v){$('scls').value=v;stuRender();$('scls').scrollIntoView({behavior:'smooth',block:'center'});$('sname').focus()}};
+$('scsv').onclick=()=>{const q=v=>'"'+String(v).replace(/"/g,'""')+'"';const L=[['Class','Student','Note','Added'].map(q).join(',')];Object.keys(S.students).sort().forEach(k=>S.students[k].forEach(s=>L.push([k,s.name,s.note||'',s.added||''].map(q).join(','))));const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+L.join('\n')],{type:'text/csv'}));a.download='extra-students.csv';a.click()};
+const GROUPS=['EX','VN','TA'];
+const gopts=g=>'<option value="">—</option>'+GROUPS.map(x=>`<option${x===g?' selected':''}>${x}</option>`).join('');
+function tmRender(){
+ $('tgnew').innerHTML=gopts('');
+ $('tlist').innerHTML=S.teachers.map((t,i)=>`<div class="bar" style="margin:0 0 6px"><span style="flex:1;min-width:120px;font-weight:600">${esc(t)}</span><select data-g="${i}">${gopts(S.groups[t]||'')}</select><button data-u="${i}">▲</button><button data-d="${i}">▼</button><button data-n="${i}">Rename</button><button data-x="${i}">✕</button></div>`).join('')}
+$('tlist').onclick=e=>{const b=e.target.closest('button');if(!b)return;const T=S.teachers,g=k=>b.dataset[k];
+ if(g('u')!==undefined){const i=+g('u');if(i>0)[T[i-1],T[i]]=[T[i],T[i-1]]}
+ else if(g('d')!==undefined){const i=+g('d');if(i<T.length-1)[T[i+1],T[i]]=[T[i],T[i+1]]}
+ else if(g('n')!==undefined){const i=+g('n'),t=T[i],n=(prompt('Rename teacher',t)||'').trim();if(!n||n===t)return;if(T.includes(n)){alert('That code already exists');return}
+  T[i]=n;Object.values(S.weeks).forEach(w=>{if(w[t]){w[n]=w[t];delete w[t]}});if(S.groups[t]){S.groups[n]=S.groups[t];delete S.groups[t]}}
+ else if(g('x')!==undefined){const i=+g('x'),t=T[i];if(!confirm('Remove '+t+' and all their scheduled classes?'))return;T.splice(i,1);Object.values(S.weeks).forEach(w=>delete w[t]);delete S.groups[t]}
+ save();tmRender();render()};
+$('tlist').onchange=e=>{const s=e.target.closest('select[data-g]');if(!s)return;const t=S.teachers[+s.dataset.g];if(s.value)S.groups[t]=s.value;else delete S.groups[t];save();render()};
+$('tadd').onclick=()=>{const n=$('tnew').value.trim(),g=$('tgnew').value;if(!n)return;if(S.teachers.includes(n)){alert('That code already exists');return}
+ let at=S.teachers.length;if(g){const idx=S.teachers.map(t=>S.groups[t]).lastIndexOf(g);if(idx>=0)at=idx+1}
+ S.teachers.splice(at,0,n);if(g)S.groups[n]=g;$('tnew').value='';save();tmRender();render()};
+$('tsort').onclick=()=>{const o=t=>{const i=GROUPS.indexOf(S.groups[t]);return i<0?99:i};S.teachers=S.teachers.map((t,i)=>[t,i]).sort((a,b)=>o(a[0])-o(b[0])||a[1]-b[1]).map(x=>x[0]);save();tmRender();render()};
+$('tclose').onclick=()=>$('tdlg').close();
+const offOf=(t,ds)=>S.offs.find(o=>o.teacher===t&&o.from<=ds&&ds<=o.to);
+function offConflicts(o){const out=[];Object.keys(S.weeks).sort().forEach(w=>{const r=(S.weeks[w]||{})[o.teacher];if(!r)return;r.forEach((v,i)=>{const d=iso(addDays(w,dayOf(i)));if(v&&v.toUpperCase()!=='X'&&d>=o.from&&d<=o.to)out.push({d,slot:SLOTS[i],v})})});return out}
+function offRender(){
+ const ds=Array.from({length:7},(_,i)=>iso(addDays(cur,i)));const bad=[];
+ S.offs.forEach(o=>offConflicts(o).filter(c=>ds.includes(c.d)).forEach(c=>bad.push(`${o.teacher}: ${c.slot} ${fmt(new Date(c.d+'T00:00:00'))} – ${c.v} (${o.reason||'day off'})`)));
+ const wn=$('warn');wn.hidden=!bad.length;wn.innerHTML=bad.length?'⚠ <b>'+bad.length+' class(es) scheduled on a teacher’s day off this week:</b><br>'+bad.map(esc).join('<br>'):'';
+ const today=iso(new Date()),L=[...S.offs].sort((a,b)=>a.from.localeCompare(b.from));
+ $('offt').innerHTML='<tr><th>Teacher</th><th>From</th><th>To</th><th>Reason</th><th>Classes to cover</th><th></th></tr>'+(L.length?L.map(o=>{const n=offConflicts(o).length;return `<tr${o.to<today?' style="opacity:.5"':''}><td>${esc(o.teacher)}</td><td>${o.from}</td><td>${o.to}</td><td>${esc(o.reason||'')}</td><td>${n?'<b style="color:#d33">'+n+'</b>':'0'}</td><td><button data-o="${esc(o.id)}">Remove</button></td></tr>`}).join(''):'<tr><td colspan="6" class="mu">No days off recorded.</td></tr>')}
+$('offb').onclick=()=>{$('ot').innerHTML=S.teachers.map(t=>`<option>${esc(t)}</option>`).join('');$('of').value=$('oe').value=iso(addDays(cur,0));$('or').value='';$('odlg').showModal()};
+$('ox').onclick=()=>$('odlg').close();
+$('os').onclick=()=>{const f=$('of').value,e=$('oe').value||f;if(!f||e<f){alert('Please check the dates');return}
+ S.offs.push({id:Date.now().toString(36),teacher:$('ot').value,from:f,to:e,reason:$('or').value.trim()});save();$('odlg').close();render()};
+$('offt').onclick=e=>{const b=e.target.closest('button[data-o]');if(!b||!confirm('Remove this day off?'))return;S.offs=S.offs.filter(o=>o.id!==b.dataset.o);save();render()};
+initSync();
+$('scls').value=allCodes().find(c=>c.startsWith('TUOND'))||'TUOND';
+render();stuRender();
+</script></body></html>
