@@ -1,0 +1,5559 @@
+{
+  "version": 1,
+  "revision": 10,
+  "prefixes": [
+    {
+      "id": "e2e10965-4d63-4f4f-bf90-962a54db2b19",
+      "prefix": "HK1",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "2d148a6d-0c9a-481f-89ce-73690ca06eb1",
+      "prefix": "HK2",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "8c6a0ce5-4d45-435c-9a03-7b3f3f824b29",
+      "prefix": "HK3",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "fa592b7d-b954-4fcf-8eee-a4c2158ae9e9",
+      "prefix": "HK4",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "118c5417-2f8f-4434-9338-38d743e5c820",
+      "prefix": "HK5",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "de5bd586-138e-46f1-9bdd-70933d7509d8",
+      "prefix": "HK6",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "97894836-f9a8-484f-b12a-0230f696a24f",
+      "prefix": "HK7",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "ef3236f5-9d57-4de2-b7cc-0dbf2c1e3621",
+      "prefix": "HK8",
+      "min": 90,
+      "cat": "Other",
+      "color": "#00ffff",
+      "active": true,
+      "groupCode": "HK",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "40ba0b42-8996-4e8d-91b6-a358c0c1bf9f",
+      "prefix": "SKE1",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "1209e850-39df-4c33-b40d-9194916c329f",
+      "prefix": "SKE2",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "9449c6fe-cdd1-4e75-9fc4-3a656f1d3ebb",
+      "prefix": "SKE3",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "20614d67-a965-4c96-84ea-f95e86302e86",
+      "prefix": "SKE4",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "8849f3ab-87c9-46c7-b8e2-9d4f3084a83a",
+      "prefix": "SKE5",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "5ef0013d-9c45-4521-b9a3-05b9b392d792",
+      "prefix": "SKE6",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "0ad4cfc3-2c12-41e0-a6d0-289e29dcd340",
+      "prefix": "SKE7",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "3928756a-5b5f-496e-a465-812888eda250",
+      "prefix": "SKE8",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#990000",
+      "active": true,
+      "groupCode": "SKE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "1124292d-0ed0-46c1-a241-37aefae2c242",
+      "prefix": "SKG1",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "28c2f09d-d2cc-4a55-99da-76216ab8097c",
+      "prefix": "SKG2",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "cbcd0bb8-a18e-4c15-a4ed-5a629f452bd5",
+      "prefix": "SKG3",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "cc101763-960c-4ee3-a4f9-f603ed8e0eaf",
+      "prefix": "SKG4",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "f5f98430-33aa-42ee-ab70-e31e6af37f06",
+      "prefix": "SKG5",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "80c838ac-36ab-41ad-8a7e-3e42feba308b",
+      "prefix": "SKG6",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "a7fce268-b426-43ab-a5c3-c1ccf5611c6a",
+      "prefix": "SKG7",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "74359f46-15ce-4540-b039-e78f1719bd8b",
+      "prefix": "SKG8",
+      "min": 120,
+      "cat": "SKE/SKG",
+      "color": "#f4cccc",
+      "active": true,
+      "groupCode": "SKG",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "38ee41eb-bfc6-4356-a06f-74ebeebba36b",
+      "prefix": "PYL1",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f9cb9c",
+      "active": true,
+      "groupCode": "PYL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "2ecdbb16-254b-4e53-a767-bd88055b217c",
+      "prefix": "PYL2",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f9cb9c",
+      "active": true,
+      "groupCode": "PYL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "a40e4296-7194-46b4-b983-3753a298f7e5",
+      "prefix": "PYL3",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f9cb9c",
+      "active": true,
+      "groupCode": "PYL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "ebd9ea23-529d-4457-850a-74313775c1b5",
+      "prefix": "YLC1",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "70d79148-30e3-41c3-8471-017b331f2359",
+      "prefix": "YLC2",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "224d082b-204e-499a-96ac-8a3c3300bc2e",
+      "prefix": "YLC3",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "eebe4ed9-149b-4d2a-9b1c-32ec72b319bb",
+      "prefix": "YLC4",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "04ccf765-fd28-4099-ad88-d334a97ed498",
+      "prefix": "YLC5",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "09b3e065-8560-40c4-a637-81f12e6702e3",
+      "prefix": "YLC6",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "602f3bd3-ceaa-47c5-b605-f6745cd81b13",
+      "prefix": "YLC7",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "48cbf9b5-bb8f-4e75-b5af-6da8a2935b07",
+      "prefix": "YLC8",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "3708a7f6-e837-441a-a5c7-a6e1d42d50e9",
+      "prefix": "YLC9",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#ffe599",
+      "active": true,
+      "groupCode": "YLC",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "56f9f6e8-3a0f-4112-989d-9b775ca2c3c2",
+      "prefix": "YLS1",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f6b26b",
+      "active": true,
+      "groupCode": "YLS",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "3b20e535-ce63-43d2-afcd-ebe39187533c",
+      "prefix": "YLS2",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f6b26b",
+      "active": true,
+      "groupCode": "YLS",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "bd045f62-98bf-45a5-bfc0-6db3059efa73",
+      "prefix": "YLS3",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f6b26b",
+      "active": true,
+      "groupCode": "YLS",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "817b2607-4d03-4994-8172-fb04eb799fc1",
+      "prefix": "YLS4",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f6b26b",
+      "active": true,
+      "groupCode": "YLS",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "1707ae02-9c41-45c3-93ee-b623bf4bfc88",
+      "prefix": "YLS5",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f6b26b",
+      "active": true,
+      "groupCode": "YLS",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "40b3db71-efeb-4e40-aa2b-a94a3824ab08",
+      "prefix": "YLS6",
+      "min": 120,
+      "cat": "PYL/YL",
+      "color": "#f6b26b",
+      "active": true,
+      "groupCode": "YLS",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "db6bd23a-e406-4af3-83a5-0ae5a087aec5",
+      "prefix": "FD",
+      "min": 120,
+      "cat": "Other",
+      "color": "#b7e1cd",
+      "active": true,
+      "groupCode": "FD",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "54e59f00-b910-4ee3-8a9c-df88b13a4b0b",
+      "prefix": "ELE1",
+      "min": 120,
+      "cat": "ELE/IL",
+      "color": "#a2c4c9",
+      "active": true,
+      "groupCode": "ELE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "752553e6-6af7-4272-948f-fb362e10426e",
+      "prefix": "ELE2",
+      "min": 120,
+      "cat": "ELE/IL",
+      "color": "#a2c4c9",
+      "active": true,
+      "groupCode": "ELE",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "2f33b011-ecb3-40b9-b4e3-2e556b47fb53",
+      "prefix": "PIL1",
+      "min": 120,
+      "cat": "Other",
+      "color": "#a4c2f4",
+      "active": true,
+      "groupCode": "PIL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "9fe18fc1-ee28-4aa2-904a-4f536f5220bc",
+      "prefix": "PIL2",
+      "min": 120,
+      "cat": "Other",
+      "color": "#a4c2f4",
+      "active": true,
+      "groupCode": "PIL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "de21dc45-ef73-4e56-b0ae-fafab2d38824",
+      "prefix": "IL4.0",
+      "min": 120,
+      "cat": "ELE/IL",
+      "color": "#0b5394",
+      "active": true,
+      "groupCode": "IL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "9338a2fe-30a7-4802-bf47-a149b19efebf",
+      "prefix": "IL5.0",
+      "min": 120,
+      "cat": "ELE/IL",
+      "color": "#0b5394",
+      "active": true,
+      "groupCode": "IL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "2d3ce18e-c902-4c64-8b37-c39cc82fc991",
+      "prefix": "IL6.0",
+      "min": 120,
+      "cat": "ELE/IL",
+      "color": "#0b5394",
+      "active": true,
+      "groupCode": "IL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "28d7a817-62c7-4210-ab7f-0978967f52b0",
+      "prefix": "IL7.0",
+      "min": 120,
+      "cat": "ELE/IL",
+      "color": "#0b5394",
+      "active": true,
+      "groupCode": "IL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "75c278ac-7483-4d10-b3bb-d3445694b274",
+      "prefix": "TUOND",
+      "min": 60,
+      "cat": "Other",
+      "color": "#b6d7a8",
+      "active": true,
+      "groupCode": "TUOND",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "68ada98f-ce68-427d-b47f-0a645d115f5d",
+      "prefix": "TUIL",
+      "min": 60,
+      "cat": "Other",
+      "color": "#b4c6e7",
+      "active": true,
+      "groupCode": "TUIL",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "18d575d1-37fb-4f7e-809e-4b5036389261",
+      "prefix": "CORP",
+      "min": 120,
+      "cat": "Corp",
+      "color": "#00b0f0",
+      "active": true,
+      "groupCode": "CORP",
+      "durationOverride": null,
+      "colorOverride": null
+    },
+    {
+      "id": "e557bed8-1a49-4578-b2ab-98a6a0e1fde1",
+      "prefix": "CAM",
+      "min": null,
+      "cat": "Other",
+      "color": "#e8e8e8",
+      "active": true,
+      "special": true,
+      "actual": true,
+      "groupCode": "CAM",
+      "durationOverride": null,
+      "colorOverride": null
+    }
+  ],
+  "teachers": [
+    {
+      "id": "3603eacf-cda2-4587-81b5-20b61ca4b3fd",
+      "code": "BD.QUYEN.N1",
+      "group": "EX",
+      "sortIndex": 1
+    },
+    {
+      "id": "7d631a33-0aa9-455e-8848-1906144a0317",
+      "code": "HUYEN.N17",
+      "group": "VN",
+      "sortIndex": 2
+    },
+    {
+      "id": "a3492752-74fa-41dc-a43d-379610080ca4",
+      "code": "CASSIUS.P",
+      "group": "TA",
+      "sortIndex": 3
+    },
+    {
+      "id": "10d5e41a-d76e-4908-8a86-37ab50906d58",
+      "code": "SUB TEACHERS",
+      "group": "TA",
+      "sortIndex": 10,
+      "isSubPool": true
+    },
+    {
+      "id": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "code": "DUYEN.P7",
+      "group": "",
+      "sortIndex": 5
+    },
+    {
+      "id": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "code": "QUYNH.D13",
+      "group": "",
+      "sortIndex": 6
+    },
+    {
+      "id": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "code": "BICH.N6",
+      "group": "",
+      "sortIndex": 7
+    },
+    {
+      "id": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "code": "NGUYEN.D8",
+      "group": "",
+      "sortIndex": 8
+    },
+    {
+      "id": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "code": "LINH.N90",
+      "group": "",
+      "sortIndex": 9
+    }
+  ],
+  "classes": [
+    {
+      "id": "79501eb0-37f1-4ed5-b5e8-4947d9b8ab77",
+      "display": "YLC2-C2602AF",
+      "prefixText": "YLC2",
+      "body": "C2602AF",
+      "normalized": "ylc2-c2602af",
+      "prefixId": "70d79148-30e3-41c3-8471-017b331f2359",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "display": "ELE1-D2601AV",
+      "prefixText": "ELE1",
+      "body": "D2601AV",
+      "normalized": "ele1-d2601av",
+      "prefixId": "54e59f00-b910-4ee3-8a9c-df88b13a4b0b",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "display": "PIL1N-D2601AV",
+      "prefixText": "PIL1",
+      "body": "N-D2601AV",
+      "normalized": "pil1n-d2601av",
+      "prefixId": "2f33b011-ecb3-40b9-b4e3-2e556b47fb53",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "display": "HK3-C2602AV",
+      "prefixText": "HK3",
+      "body": "C2602AV",
+      "normalized": "hk3-c2602av",
+      "prefixId": "8c6a0ce5-4d45-435c-9a03-7b3f3f824b29",
+      "actualMin": 90,
+      "kind": "MAIN"
+    },
+    {
+      "id": "df6c23d0-f3f1-45cb-b304-3d983b143d43",
+      "display": "TUOND-2603AF",
+      "prefixText": "TUOND",
+      "body": "2603AF",
+      "normalized": "tuond-2603af",
+      "prefixId": "75c278ac-7483-4d10-b3bb-d3445694b274",
+      "actualMin": 60,
+      "kind": "COVER"
+    },
+    {
+      "id": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "display": "IL5.0-D2607AF",
+      "prefixText": "IL5.0",
+      "body": "D2607AF",
+      "normalized": "il5.0-d2607af",
+      "prefixId": "9338a2fe-30a7-4802-bf47-a149b19efebf",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "af04b3fc-8ea8-4047-96f9-b6728a591b4f",
+      "display": "CAM-Ab2601AF",
+      "prefixText": "CAM",
+      "body": "Ab2601AF",
+      "normalized": "cam-ab2601af",
+      "prefixId": "e557bed8-1a49-4578-b2ab-98a6a0e1fde1",
+      "actualMin": 0,
+      "kind": "SPECIAL_CAM"
+    },
+    {
+      "id": "046a4693-04da-464f-b857-89d5bffcfe50",
+      "display": "IL5.0-B2603AF",
+      "prefixText": "IL5.0",
+      "body": "B2603AF",
+      "normalized": "il5.0-b2603af",
+      "prefixId": "9338a2fe-30a7-4802-bf47-a149b19efebf",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "display": "IL4.0-C2601AV",
+      "prefixText": "IL4.0",
+      "body": "C2601AV",
+      "normalized": "il4.0-c2601av",
+      "prefixId": "de21dc45-ef73-4e56-b0ae-fafab2d38824",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "display": "HK3-C2601AV",
+      "prefixText": "HK3",
+      "body": "C2601AV",
+      "normalized": "hk3-c2601av",
+      "prefixId": "8c6a0ce5-4d45-435c-9a03-7b3f3f824b29",
+      "actualMin": 90,
+      "kind": "MAIN"
+    },
+    {
+      "id": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "display": "HK6-D2601AV",
+      "prefixText": "HK6",
+      "body": "D2601AV",
+      "normalized": "hk6-d2601av",
+      "prefixId": "de5bd586-138e-46f1-9bdd-70933d7509d8",
+      "actualMin": 90,
+      "kind": "MAIN"
+    },
+    {
+      "id": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "display": "SKE6-C2601AV",
+      "prefixText": "SKE6",
+      "body": "C2601AV",
+      "normalized": "ske6-c2601av",
+      "prefixId": "5ef0013d-9c45-4521-b9a3-05b9b392d792",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "display": "YLC1-D2601AV",
+      "prefixText": "YLC1",
+      "body": "D2601AV",
+      "normalized": "ylc1-d2601av",
+      "prefixId": "ebd9ea23-529d-4457-850a-74313775c1b5",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "display": "SKE3-D2601AV",
+      "prefixText": "SKE3",
+      "body": "D2601AV",
+      "normalized": "ske3-d2601av",
+      "prefixId": "9449c6fe-cdd1-4e75-9fc4-3a656f1d3ebb",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "display": "SKE6-Aa2601AV",
+      "prefixText": "SKE6",
+      "body": "Aa2601AV",
+      "normalized": "ske6-aa2601av",
+      "prefixId": "5ef0013d-9c45-4521-b9a3-05b9b392d792",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "display": "YLC4-B2601AV",
+      "prefixText": "YLC4",
+      "body": "B2601AV",
+      "normalized": "ylc4-b2601av",
+      "prefixId": "eebe4ed9-149b-4d2a-9b1c-32ec72b319bb",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "display": "SKE1-C2601AV",
+      "prefixText": "SKE1",
+      "body": "C2601AV",
+      "normalized": "ske1-c2601av",
+      "prefixId": "40ba0b42-8996-4e8d-91b6-a358c0c1bf9f",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "display": "SKE3-Aa2601AV",
+      "prefixText": "SKE3",
+      "body": "Aa2601AV",
+      "normalized": "ske3-aa2601av",
+      "prefixId": "9449c6fe-cdd1-4e75-9fc4-3a656f1d3ebb",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "71f003d4-cfc0-4e47-a90c-2c4c9f6af716",
+      "display": "YLC3-C2603AF",
+      "prefixText": "YLC3",
+      "body": "C2603AF",
+      "normalized": "ylc3-c2603af",
+      "prefixId": "224d082b-204e-499a-96ac-8a3c3300bc2e",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "501cd3b8-d989-4568-8038-5b45d7e7e20d",
+      "display": "SKG3-C2602AF",
+      "prefixText": "SKG3",
+      "body": "C2602AF",
+      "normalized": "skg3-c2602af",
+      "prefixId": "cbcd0bb8-a18e-4c15-a4ed-5a629f452bd5",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "display": "SKE7-Aa2601AF",
+      "prefixText": "SKE7",
+      "body": "Aa2601AF",
+      "normalized": "ske7-aa2601af",
+      "prefixId": "0ad4cfc3-2c12-41e0-a6d0-289e29dcd340",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "display": "SKG1-Ab2601AF",
+      "prefixText": "SKG1",
+      "body": "Ab2601AF",
+      "normalized": "skg1-ab2601af",
+      "prefixId": "1124292d-0ed0-46c1-a241-37aefae2c242",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "display": "SKE1-Aa2603AF",
+      "prefixText": "SKE1",
+      "body": "Aa2603AF",
+      "normalized": "ske1-aa2603af",
+      "prefixId": "40ba0b42-8996-4e8d-91b6-a358c0c1bf9f",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "fab75576-af8a-458f-8bee-5b8533f8906c",
+      "display": "TUOND-2601AF",
+      "prefixText": "TUOND",
+      "body": "2601AF",
+      "normalized": "tuond-2601af",
+      "prefixId": "75c278ac-7483-4d10-b3bb-d3445694b274",
+      "actualMin": 60,
+      "kind": "COVER"
+    },
+    {
+      "id": "bfa7e438-fcdb-4cec-b8d0-f5cbdaf8bcf2",
+      "display": "YLC2-D2606AF",
+      "prefixText": "YLC2",
+      "body": "D2606AF",
+      "normalized": "ylc2-d2606af",
+      "prefixId": "70d79148-30e3-41c3-8471-017b331f2359",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "cbe1f38a-d4dd-4e23-bc59-7cd0dfeefe73",
+      "display": "IL4.0-D2602Y",
+      "prefixText": "IL4.0",
+      "body": "D2602Y",
+      "normalized": "il4.0-d2602y",
+      "prefixId": "de21dc45-ef73-4e56-b0ae-fafab2d38824",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "2752264a-31a9-4290-9117-5e8c68a3732c",
+      "display": "SKE1-Aa2601AV",
+      "prefixText": "SKE1",
+      "body": "Aa2601AV",
+      "normalized": "ske1-aa2601av",
+      "prefixId": "40ba0b42-8996-4e8d-91b6-a358c0c1bf9f",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "6c873fce-0b3d-4be2-abfe-1d0ff6ea7ec6",
+      "display": "IL6.0-D2605AF",
+      "prefixText": "IL6.0",
+      "body": "D2605AF",
+      "normalized": "il6.0-d2605af",
+      "prefixId": "2d3ce18e-c902-4c64-8b37-c39cc82fc991",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "4eb25895-c13a-45ce-b192-a16358f8c9ac",
+      "display": "YLC7-Ab2601AV",
+      "prefixText": "YLC7",
+      "body": "Ab2601AV",
+      "normalized": "ylc7-ab2601av",
+      "prefixId": "602f3bd3-ceaa-47c5-b605-f6745cd81b13",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "042a0a4a-6770-4f90-9b0d-8cb82d192622",
+      "display": "YLC1-Ba2601AA",
+      "prefixText": "YLC1",
+      "body": "Ba2601AA",
+      "normalized": "ylc1-ba2601aa",
+      "prefixId": "ebd9ea23-529d-4457-850a-74313775c1b5",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "5be23be8-b3d4-4bf2-b3b0-46b6b9af03ad",
+      "display": "YLC4-C2606AA",
+      "prefixText": "YLC4",
+      "body": "C2606AA",
+      "normalized": "ylc4-c2606aa",
+      "prefixId": "eebe4ed9-149b-4d2a-9b1c-32ec72b319bb",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "display": "SKG3-C2606AF",
+      "prefixText": "SKG3",
+      "body": "C2606AF",
+      "normalized": "skg3-c2606af",
+      "prefixId": "cbcd0bb8-a18e-4c15-a4ed-5a629f452bd5",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "b4b6a254-2fbe-4213-9dcd-dcd4fe8a92f1",
+      "display": "FD-D2601AV",
+      "prefixText": "FD",
+      "body": "D2601AV",
+      "normalized": "fd-d2601av",
+      "prefixId": "db6bd23a-e406-4af3-83a5-0ae5a087aec5",
+      "actualMin": 120,
+      "kind": "MAIN"
+    },
+    {
+      "id": "3372a2f0-5e37-4a8a-b795-1b3d1abe4edb",
+      "display": "SKE6-D2601AF",
+      "prefixText": "SKE6",
+      "body": "D2601AF",
+      "normalized": "ske6-d2601af",
+      "prefixId": "5ef0013d-9c45-4521-b9a3-05b9b392d792",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "9491537f-5820-4789-b2c3-caf3c49b1cf1",
+      "display": "YLC3-B2603AF",
+      "prefixText": "YLC3",
+      "body": "B2603AF",
+      "normalized": "ylc3-b2603af",
+      "prefixId": "224d082b-204e-499a-96ac-8a3c3300bc2e",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "3b07eecb-4317-465d-9811-c25ffcc98d0f",
+      "display": "PYL2-D2601AF",
+      "prefixText": "PYL2",
+      "body": "D2601AF",
+      "normalized": "pyl2-d2601af",
+      "prefixId": "2ecdbb16-254b-4e53-a767-bd88055b217c",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "display": "YLC1-C2607AF",
+      "prefixText": "YLC1",
+      "body": "C2607AF",
+      "normalized": "ylc1-c2607af",
+      "prefixId": "ebd9ea23-529d-4457-850a-74313775c1b5",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "c9cfac17-4453-4b40-b91d-f62df1dacfed",
+      "display": "YLC3-D2604AF",
+      "prefixText": "YLC3",
+      "body": "D2604AF",
+      "normalized": "ylc3-d2604af",
+      "prefixId": "224d082b-204e-499a-96ac-8a3c3300bc2e",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "display": "YLC1-Ab2602AF",
+      "prefixText": "YLC1",
+      "body": "Ab2602AF",
+      "normalized": "ylc1-ab2602af",
+      "prefixId": "ebd9ea23-529d-4457-850a-74313775c1b5",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "6b86d132-c04b-4b9b-b917-99e4d5834d50",
+      "display": "SKE7-C2605AF",
+      "prefixText": "SKE7",
+      "body": "C2605AF",
+      "normalized": "ske7-c2605af",
+      "prefixId": "0ad4cfc3-2c12-41e0-a6d0-289e29dcd340",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "026fe445-d4b0-4731-87ed-5ccac1a7948f",
+      "display": "CORP2-COTECCONS",
+      "prefixText": "CORP",
+      "body": "2-COTECCONS",
+      "normalized": "corp2-coteccons",
+      "prefixId": "18d575d1-37fb-4f7e-809e-4b5036389261",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "38fa23cd-0685-4439-877e-984d64087a1e",
+      "display": "SKE8-C2607AF",
+      "prefixText": "SKE8",
+      "body": "C2607AF",
+      "normalized": "ske8-c2607af",
+      "prefixId": "3928756a-5b5f-496e-a465-812888eda250",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "81a0c16e-13a1-453c-aeb3-4ab3e94c95fc",
+      "display": "PIL1n-D2602AF",
+      "prefixText": "PIL1",
+      "body": "n-D2602AF",
+      "normalized": "pil1n-d2602af",
+      "prefixId": "2f33b011-ecb3-40b9-b4e3-2e556b47fb53",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "33b78c52-b370-4f03-a99c-f819c8a4fda5",
+      "display": "YLC2-C2606AF",
+      "prefixText": "YLC2",
+      "body": "C2606AF",
+      "normalized": "ylc2-c2606af",
+      "prefixId": "70d79148-30e3-41c3-8471-017b331f2359",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "c280ed5d-3f24-4bba-a1fc-00faa34caac2",
+      "display": "YLC5-C2602AF",
+      "prefixText": "YLC5",
+      "body": "C2602AF",
+      "normalized": "ylc5-c2602af",
+      "prefixId": "04ccf765-fd28-4099-ad88-d334a97ed498",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "918a7ca0-220e-44b6-bc8c-56b801a03695",
+      "display": "TUOND-2604AF",
+      "prefixText": "TUOND",
+      "body": "2604AF",
+      "normalized": "tuond-2604af",
+      "prefixId": "75c278ac-7483-4d10-b3bb-d3445694b274",
+      "actualMin": 60,
+      "kind": "COVER"
+    },
+    {
+      "id": "d90c9207-422c-45ff-957d-3b1659992b65",
+      "display": "PT",
+      "prefixText": "",
+      "body": "PT",
+      "normalized": "pt",
+      "prefixId": null,
+      "actualMin": 0,
+      "kind": "COVER"
+    },
+    {
+      "id": "2b2c60fd-8f88-4d38-847a-4d3a970905a2",
+      "display": "SKG1-C2606AF",
+      "prefixText": "SKG1",
+      "body": "C2606AF",
+      "normalized": "skg1-c2606af",
+      "prefixId": "1124292d-0ed0-46c1-a241-37aefae2c242",
+      "actualMin": 120,
+      "kind": "COVER"
+    },
+    {
+      "id": "567a79c6-db07-4345-adbb-0b1138cf9cf5",
+      "display": "SKE5-Aa2604AF",
+      "prefixText": "SKE5",
+      "body": "Aa2604AF",
+      "normalized": "ske5-aa2604af",
+      "prefixId": "8849f3ab-87c9-46c7-b8e2-9d4f3084a83a",
+      "actualMin": 120,
+      "kind": "COVER"
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "dab19b74-d393-4864-9a53-5fa4129d4d23",
+      "date": "2026-11-02",
+      "slotId": "slot-0",
+      "classId": "79501eb0-37f1-4ed5-b5e8-4947d9b8ab77",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "938105be-3bcc-478f-b646-abcb1e304eb7",
+      "date": "2026-11-03",
+      "slotId": "slot-3",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "befddcbf-d624-49f8-9649-15edd25c75cd",
+      "date": "2026-11-04",
+      "slotId": "slot-5",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "b9bf0cd5-5e09-4486-81e1-b8e88425945c",
+      "date": "2026-11-05",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "76a3fa1f-354c-4e62-8be7-51929fffe9eb",
+      "date": "2026-11-05",
+      "slotId": "slot-7",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "d90211b3-95b8-4b1a-b84d-a09da3bea38f",
+      "date": "2026-11-06",
+      "slotId": "slot-8",
+      "classId": "df6c23d0-f3f1-45cb-b304-3d983b143d43",
+      "minutes": 60,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "dfe101af-16a3-44f9-ad81-d8d506b75d2a",
+      "date": "2026-11-06",
+      "slotId": "slot-9",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "d222db21-7dc4-4491-a053-4538bd0f32f8",
+      "date": "2026-11-07",
+      "slotId": "slot-11",
+      "classId": "af04b3fc-8ea8-4047-96f9-b6728a591b4f",
+      "minutes": 0,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "5b32a29b-deed-4fd6-9762-088a7e16f31b",
+      "date": "2026-11-07",
+      "slotId": "slot-14",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "82f1f8d8-ee66-4473-84e1-b24019e59d63",
+      "date": "2026-11-08",
+      "slotId": "slot-16",
+      "classId": "af04b3fc-8ea8-4047-96f9-b6728a591b4f",
+      "minutes": 0,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "68ba51cd-c891-4bda-840b-451538d9fc64",
+      "date": "2026-11-08",
+      "slotId": "slot-17",
+      "classId": "046a4693-04da-464f-b857-89d5bffcfe50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "d1da973a-b3fd-4a39-bfa9-6fe26b5a6b8d",
+      "date": "2026-11-08",
+      "slotId": "slot-18",
+      "classId": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "1ebf7fd8-9198-4a24-82d2-fc773e4bacb8",
+      "date": "2026-11-02",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "ffa8b060-1300-471b-a7b0-7c2380f604ab",
+      "date": "2026-11-02",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "280b67b5-4550-4718-bd1a-c161f8d9055f",
+      "date": "2026-11-03",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "c734a6e6-7be9-479a-9999-76390059fa1d",
+      "date": "2026-11-03",
+      "slotId": "slot-3",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "6694b312-5d84-46cc-a648-5a7c1c19d69f",
+      "date": "2026-11-04",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "10b46ae2-aae3-401d-b223-85d30442993c",
+      "date": "2026-11-07",
+      "slotId": "slot-10",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "0b6df3b9-c418-4c77-b773-75d69d034f80",
+      "date": "2026-11-07",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "00126201-636a-40cd-8f63-dfcf8dec5b07",
+      "date": "2026-11-07",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "55429671-dbf8-43c6-a70c-9ebff56d93d9",
+      "date": "2026-11-08",
+      "slotId": "slot-15",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "7dfaa459-522a-4780-8e8c-d26cedcb3908",
+      "date": "2026-11-02",
+      "slotId": "slot-1",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "18d64754-ebb9-40be-a953-84e0969f11d0",
+      "date": "2026-11-03",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "8114d56c-aa76-409f-9e06-f1de33815d4b",
+      "date": "2026-11-04",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "01013ebf-5f3b-4e0d-84b0-924a78ed6f0c",
+      "date": "2026-11-04",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "65f5cd63-5dc2-4a50-82b4-8afb15f4bfcc",
+      "date": "2026-11-05",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "e88b6897-0526-477e-9347-2967353bf4f4",
+      "date": "2026-11-05",
+      "slotId": "slot-7",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "f513f8e9-8884-4292-8db5-9b96be15f234",
+      "date": "2026-11-06",
+      "slotId": "slot-8",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "88b04f15-c731-49ea-a053-cb99f66ca105",
+      "date": "2026-11-07",
+      "slotId": "slot-10",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "6ad2bb2e-b958-469b-88ba-c42d01664881",
+      "date": "2026-11-08",
+      "slotId": "slot-15",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "e347a7ed-f337-49ac-909d-aaa666084380",
+      "date": "2026-11-08",
+      "slotId": "slot-17",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "8498ec22-b3a6-4f6c-ad46-f6c1246de3fe",
+      "date": "2026-11-02",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "d15258b9-4b4f-4d47-a0c2-3e7d9953f711",
+      "date": "2026-11-04",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "110c64dd-6e77-4ca7-b142-6460cefa9e52",
+      "date": "2026-11-07",
+      "slotId": "slot-10",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "deeb9bb1-335d-4ee3-925f-924cd94e5427",
+      "date": "2026-11-07",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "e7818e35-2b03-4f9e-8aed-544f1c6085d1",
+      "date": "2026-11-08",
+      "slotId": "slot-15",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "35aaf397-2d58-48ef-a899-6de8c89450ce",
+      "date": "2026-11-02",
+      "slotId": "slot-0",
+      "classId": "71f003d4-cfc0-4e47-a90c-2c4c9f6af716",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "2859a7ba-6acd-48ed-ada3-81659f57ae26",
+      "date": "2026-11-02",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "9e619724-3bcb-4967-935b-724d80856fe9",
+      "date": "2026-11-03",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "0111ab5e-bd06-41a1-bb41-925e8e70b03b",
+      "date": "2026-11-04",
+      "slotId": "slot-4",
+      "classId": "501cd3b8-d989-4568-8038-5b45d7e7e20d",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "bf18ea7a-f798-4e52-b91a-83e3c7ef971c",
+      "date": "2026-11-04",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "f52deea8-6b3b-4f6b-a192-bf4ca3c72090",
+      "date": "2026-11-05",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "93ef0dc6-e289-48c2-916c-5a2ae1e0f712",
+      "date": "2026-11-07",
+      "slotId": "slot-10",
+      "classId": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "0e93ed2f-60ec-4c47-b0f8-7f79fcb641ba",
+      "date": "2026-11-07",
+      "slotId": "slot-11",
+      "classId": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "db732252-d144-4c9b-9abe-4fc6fe93cc19",
+      "date": "2026-11-08",
+      "slotId": "slot-15",
+      "classId": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "9c6333b3-ccfa-4cd1-a18d-4d3c21009fd6",
+      "date": "2026-11-08",
+      "slotId": "slot-16",
+      "classId": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "8fe4f25b-4f29-43a6-9940-3371faff1dab",
+      "date": "2026-11-02",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "85f02b6c-e476-43b9-ae9c-9519af23d9e1",
+      "date": "2026-11-02",
+      "slotId": "slot-1",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "f776e8c8-b7f6-45f8-a35a-bff8f7381254",
+      "date": "2026-11-04",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "0d9e6075-4695-4ec2-b6bc-1c73fe435d8f",
+      "date": "2026-11-04",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "0edcca25-7b5b-438f-ac78-8aa972e97e32",
+      "date": "2026-11-07",
+      "slotId": "slot-10",
+      "classId": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "d395a0c8-f0a2-479d-bd63-1b4749130881",
+      "date": "2026-11-08",
+      "slotId": "slot-15",
+      "classId": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "9330af21-0c78-4e84-9ef2-3e9855eeee6c",
+      "date": "2026-11-03",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "a63865fd-c4b4-4cda-98a6-211ca4cb42fa",
+      "date": "2026-11-03",
+      "slotId": "slot-3",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "12c92c09-7f95-4a2e-8ca8-86f6eddf7b7b",
+      "date": "2026-11-04",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "96555c39-4cb1-42d6-8b85-785aa6ae4e2c",
+      "date": "2026-11-05",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "4c8714ee-2df3-4b39-919b-b9927fa694b3",
+      "date": "2026-11-05",
+      "slotId": "slot-7",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "6116dcd3-b427-4da3-84be-1a39a6d8c8c7",
+      "date": "2026-11-07",
+      "slotId": "slot-10",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "a3182549-5ac0-451e-84dc-d8916a50105e",
+      "date": "2026-11-08",
+      "slotId": "slot-15",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "85558ae2-9656-4b0d-99ae-d576cf245195",
+      "date": "2026-11-03",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "5c086ea4-00b3-41be-b190-c957b8e04f28",
+      "date": "2026-11-05",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "d5c20ad2-c6c9-46d9-b845-e0a6ba223e55",
+      "date": "2026-11-09",
+      "slotId": "slot-0",
+      "classId": "fab75576-af8a-458f-8bee-5b8533f8906c",
+      "minutes": 60,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "10e6961b-5be6-4386-ac9c-5db7d8fd1aa5",
+      "date": "2026-11-09",
+      "slotId": "slot-1",
+      "classId": "bfa7e438-fcdb-4cec-b8d0-f5cbdaf8bcf2",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "87bdb345-881f-4f06-87bd-c165afc9b96a",
+      "date": "2026-11-10",
+      "slotId": "slot-3",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "babde9c3-83f3-4e72-a6a3-87a01af16902",
+      "date": "2026-11-11",
+      "slotId": "slot-5",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "05b76ec0-b5ef-46a8-8ebb-bc1366253d10",
+      "date": "2026-11-12",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "d4946d0b-28e3-42fc-81c1-a13d1bb2b312",
+      "date": "2026-11-12",
+      "slotId": "slot-7",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "597f54e1-b7c4-4e11-88d2-d5716b8f1c40",
+      "date": "2026-11-13",
+      "slotId": "slot-9",
+      "classId": "cbe1f38a-d4dd-4e23-bc59-7cd0dfeefe73",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "6eeebeb7-d204-43bf-b417-d9f669961cd8",
+      "date": "2026-11-14",
+      "slotId": "slot-10",
+      "classId": "2752264a-31a9-4290-9117-5e8c68a3732c",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "81496f77-6cbb-47e8-8c00-e35adde6f288",
+      "date": "2026-11-14",
+      "slotId": "slot-13",
+      "classId": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "ad21a2c1-8765-455c-aefe-e1f748a43880",
+      "date": "2026-11-14",
+      "slotId": "slot-14",
+      "classId": "6c873fce-0b3d-4be2-abfe-1d0ff6ea7ec6",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "003ef9a7-8973-4674-885d-178112dcaccf",
+      "date": "2026-11-09",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "7e12bd8e-8882-459e-9f3a-ac7ff13bcc00",
+      "date": "2026-11-09",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "1cea6365-32e2-44f2-918c-bed241d603e7",
+      "date": "2026-11-10",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "66e3bd34-4d6b-4e02-919c-5afa404fa1b6",
+      "date": "2026-11-10",
+      "slotId": "slot-3",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "11e149a3-aaec-4ea7-aee5-811168c4c4ae",
+      "date": "2026-11-11",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "95f6aa08-3fc0-4ef9-b54e-30b3a0b299ae",
+      "date": "2026-11-14",
+      "slotId": "slot-10",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "9d0aa88a-e4b6-4df7-ba68-c655e1595fba",
+      "date": "2026-11-14",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "e79e3aa6-ac90-4df3-a2da-f0bf3436aa8e",
+      "date": "2026-11-14",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "4ced81a7-7444-4411-b837-8ec89089a20a",
+      "date": "2026-11-15",
+      "slotId": "slot-15",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "f7070054-468c-4329-a589-3f327c52ce86",
+      "date": "2026-11-15",
+      "slotId": "slot-16",
+      "classId": "4eb25895-c13a-45ce-b192-a16358f8c9ac",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "2467ad94-9ab1-4e79-a1b9-50e29ee150ee",
+      "date": "2026-11-09",
+      "slotId": "slot-1",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "2430b813-ece1-4d02-a3f6-3243c50f430a",
+      "date": "2026-11-10",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "348abf51-0d66-4abc-801e-68ba9709c953",
+      "date": "2026-11-11",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "01e6b282-8b31-4306-8628-0d829a615a00",
+      "date": "2026-11-11",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "a505287a-47c6-4344-a5ec-5a0107fb5013",
+      "date": "2026-11-12",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "426e90d8-9251-4d28-9724-a0af3d04c71e",
+      "date": "2026-11-12",
+      "slotId": "slot-7",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "1e4aa149-007a-4bbb-8231-88b75042dc27",
+      "date": "2026-11-13",
+      "slotId": "slot-8",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "b55edf7c-3dc3-4d07-99bc-2ac2c79094b4",
+      "date": "2026-11-14",
+      "slotId": "slot-10",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "e80469e5-16ce-4e3d-913d-70b5c40e2b54",
+      "date": "2026-11-15",
+      "slotId": "slot-15",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "a437d114-30c6-451e-8c64-6361ff145a6a",
+      "date": "2026-11-15",
+      "slotId": "slot-17",
+      "classId": "042a0a4a-6770-4f90-9b0d-8cb82d192622",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "bcb83c6c-2577-465f-afc9-08c9b7924088",
+      "date": "2026-11-15",
+      "slotId": "slot-18",
+      "classId": "5be23be8-b3d4-4bf2-b3b0-46b6b9af03ad",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "ea35e993-657e-4f05-9595-7d7c6536d487",
+      "date": "2026-11-15",
+      "slotId": "slot-17",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "0abbcef1-1f0c-4d08-b749-0f79ce93ca2c",
+      "date": "2026-11-15",
+      "slotId": "slot-18",
+      "classId": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "6e08d733-b7ed-45d6-8e2f-fb5ff692b120",
+      "date": "2026-11-09",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "618f98e2-e8af-4972-bc14-1c431f7f1f55",
+      "date": "2026-11-11",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "7be9d47c-3ee1-43f7-9a1b-ebb17ab7c343",
+      "date": "2026-11-14",
+      "slotId": "slot-10",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "26b2deeb-ea16-4686-bac0-cca82975d162",
+      "date": "2026-11-14",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "71a2f020-0fd3-401f-b294-d7c0ba9ffaac",
+      "date": "2026-11-15",
+      "slotId": "slot-15",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "f2b4f334-83fb-4183-897a-e76a729e7f5d",
+      "date": "2026-11-09",
+      "slotId": "slot-0",
+      "classId": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "28319d99-b67d-4cca-8693-100f273bed2c",
+      "date": "2026-11-09",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "0163ba90-5c74-47c6-ae32-693f78678ac2",
+      "date": "2026-11-10",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "a69b29ca-d937-442a-a8bf-adeeaef05d9c",
+      "date": "2026-11-11",
+      "slotId": "slot-4",
+      "classId": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "5763b301-f31f-45d9-984d-6f93a1c0d8fd",
+      "date": "2026-11-11",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "eec361d3-4be9-4445-8943-5340bcca05fa",
+      "date": "2026-11-12",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "75b73d1f-9408-4688-85a9-85f8d1982b11",
+      "date": "2026-11-15",
+      "slotId": "slot-15",
+      "classId": "2752264a-31a9-4290-9117-5e8c68a3732c",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "9a995ce9-3278-4f05-90e6-c5272303af1f",
+      "date": "2026-11-09",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "6eafae46-277d-4a53-94f9-573fb9ea43ca",
+      "date": "2026-11-09",
+      "slotId": "slot-1",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "5dbdfa1e-5d73-400d-bd55-e3e17c5200d4",
+      "date": "2026-11-11",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "99d90933-4ef6-41ec-b74c-db06d0a31376",
+      "date": "2026-11-11",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "553fbd9d-2822-48dd-b5dd-975486b14ca8",
+      "date": "2026-11-14",
+      "slotId": "slot-10",
+      "classId": "2752264a-31a9-4290-9117-5e8c68a3732c",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "e5aab1a4-aa7b-404b-bb5e-5411b027cf16",
+      "date": "2026-11-10",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "4690e378-2697-4f59-afba-3414ae730eef",
+      "date": "2026-11-10",
+      "slotId": "slot-3",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "61ed5d05-8896-4728-9e2c-ec552381d157",
+      "date": "2026-11-11",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "d750164e-e237-47fd-992f-594280ed27c3",
+      "date": "2026-11-12",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "43cb0db1-83d4-4e34-8654-c95dab62b371",
+      "date": "2026-11-12",
+      "slotId": "slot-7",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "ec4215cb-28f8-473f-a62c-9c0045a0ed86",
+      "date": "2026-11-14",
+      "slotId": "slot-10",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "5f78b76b-6eee-4da5-afa1-6aa464053648",
+      "date": "2026-11-15",
+      "slotId": "slot-15",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "3e8b1d1e-7ecc-4cd1-bd89-7e4c23beb988",
+      "date": "2026-11-10",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "ced1e8b1-7c77-4a04-a54a-50cc2387eaf4",
+      "date": "2026-11-12",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "9e89c1ef-0907-4ca3-a54f-5029a2f16380",
+      "date": "2026-11-17",
+      "slotId": "slot-3",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "e01fec42-cdf5-4638-a6c3-591501ddb47a",
+      "date": "2026-11-18",
+      "slotId": "slot-5",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "9d5cae35-f12f-4c6b-bd80-62e95e49db5b",
+      "date": "2026-11-19",
+      "slotId": "slot-6",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "62a6408b-b9f3-43c7-bd18-397c7d8d1a47",
+      "date": "2026-11-20",
+      "slotId": "slot-9",
+      "classId": "cbe1f38a-d4dd-4e23-bc59-7cd0dfeefe73",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "cbff0b3f-0ec9-44a2-a189-c5e5f155907f",
+      "date": "2026-11-21",
+      "slotId": "slot-10",
+      "classId": "2752264a-31a9-4290-9117-5e8c68a3732c",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "41823180-7a63-4bd2-b6cc-a28bcaf03018",
+      "date": "2026-11-21",
+      "slotId": "slot-14",
+      "classId": "6c873fce-0b3d-4be2-abfe-1d0ff6ea7ec6",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "61480a8b-a971-4138-b5d6-ce8d63d96ce1",
+      "date": "2026-11-22",
+      "slotId": "slot-17",
+      "classId": "046a4693-04da-464f-b857-89d5bffcfe50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "e2d36138-bc94-4a36-80ee-b579350ce81d",
+      "date": "2026-11-16",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "ffaee328-dd2d-4c91-a79f-777bdc1ecec0",
+      "date": "2026-11-16",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "31ff130f-74cc-4056-9beb-de3d3199e7b8",
+      "date": "2026-11-17",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "ff3ff293-35af-4d07-ae1b-6f0f35fcf52d",
+      "date": "2026-11-17",
+      "slotId": "slot-3",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "0d313679-cd9e-4629-81c8-6d98fb2cfc4d",
+      "date": "2026-11-18",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "36d1bf06-abe4-4f4a-b937-653f24352a47",
+      "date": "2026-11-21",
+      "slotId": "slot-10",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "c50b6f86-35b4-4100-9b46-3dff5508fd2d",
+      "date": "2026-11-21",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "930b6b79-cdd4-4885-b8a3-1dc86a5e85d8",
+      "date": "2026-11-21",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "3cfca3e7-7bae-42fd-afae-6536c2b4169d",
+      "date": "2026-11-22",
+      "slotId": "slot-15",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "14f3828b-bada-4b3d-9157-aa203f46d7bb",
+      "date": "2026-11-22",
+      "slotId": "slot-16",
+      "classId": "4eb25895-c13a-45ce-b192-a16358f8c9ac",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "83251d33-c0b6-4d01-bcc0-72b4c6235709",
+      "date": "2026-11-16",
+      "slotId": "slot-1",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "3a87c7b5-edc3-4a77-aff3-a965d6717898",
+      "date": "2026-11-17",
+      "slotId": "slot-2",
+      "classId": "5095919c-c087-4c3a-b0f8-6409963982c9",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "53e8acf1-4bca-45a7-8e25-53e038d3a39a",
+      "date": "2026-11-18",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "62f62140-6deb-46c7-8bf1-58f43296d967",
+      "date": "2026-11-18",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "6e7dbb57-e2df-4a5d-8475-538af22e5fef",
+      "date": "2026-11-19",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "8518f1e6-a020-4ac8-9ee7-e0b22ffce44e",
+      "date": "2026-11-19",
+      "slotId": "slot-7",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "b287cdee-38fb-4e65-9527-68de6aba9c47",
+      "date": "2026-11-20",
+      "slotId": "slot-8",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "b11ad1d1-bfa9-4cfc-9dc9-8346e9d25ed9",
+      "date": "2026-11-21",
+      "slotId": "slot-10",
+      "classId": "ae55c97b-5fde-4674-9c8e-e418ac152164",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "c171733b-567f-41ab-bb7b-c275fb1f4d73",
+      "date": "2026-11-21",
+      "slotId": "slot-11",
+      "classId": "4eb25895-c13a-45ce-b192-a16358f8c9ac",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "595295c4-0bdf-43c8-b2e5-e37e4722b694",
+      "date": "2026-11-22",
+      "slotId": "slot-15",
+      "classId": "0dfbfca5-b91f-476a-a615-67f6c12b164c",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "bd836463-d398-4aef-9f1c-f42d1bb5dd53",
+      "date": "2026-11-22",
+      "slotId": "slot-17",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "c8191c8f-8d5b-4b2c-9f6a-78b1ea208d9b",
+      "date": "2026-11-17",
+      "slotId": "slot-3",
+      "classId": "b4b6a254-2fbe-4213-9dcd-dcd4fe8a92f1",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "9abd5b6f-22b1-4fb3-8753-d73c302b9e3f",
+      "date": "2026-11-19",
+      "slotId": "slot-7",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "e39cd2a9-a1f5-4744-8c7f-fc6762241acc",
+      "date": "2026-11-16",
+      "slotId": "slot-1",
+      "classId": "3372a2f0-5e37-4a8a-b795-1b3d1abe4edb",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "5abe15a4-b529-4078-a3ae-8ba068d16a36",
+      "date": "2026-11-18",
+      "slotId": "slot-5",
+      "classId": "3372a2f0-5e37-4a8a-b795-1b3d1abe4edb",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "5e4b9f47-b501-47ec-b67a-40b0aa314155",
+      "date": "2026-11-21",
+      "slotId": "slot-12",
+      "classId": "9491537f-5820-4789-b2c3-caf3c49b1cf1",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "0fa3517c-ba32-4fe6-acff-b5adf2c6caa6",
+      "date": "2026-11-22",
+      "slotId": "slot-17",
+      "classId": "9491537f-5820-4789-b2c3-caf3c49b1cf1",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "b74f16ce-2299-4934-9889-4edd59fdff18",
+      "date": "2026-11-16",
+      "slotId": "slot-0",
+      "classId": "71f003d4-cfc0-4e47-a90c-2c4c9f6af716",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "5ff48f4f-7528-43e5-9bab-81360ad422b7",
+      "date": "2026-11-16",
+      "slotId": "slot-1",
+      "classId": "3b07eecb-4317-465d-9811-c25ffcc98d0f",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "83190ee6-7b64-4dcb-b322-1647e0f66b83",
+      "date": "2026-11-18",
+      "slotId": "slot-4",
+      "classId": "71f003d4-cfc0-4e47-a90c-2c4c9f6af716",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "dbcfe3d2-7623-451e-8439-1c7a3c4fbd0f",
+      "date": "2026-11-18",
+      "slotId": "slot-5",
+      "classId": "3b07eecb-4317-465d-9811-c25ffcc98d0f",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "c45c261a-2b02-45d0-9fe3-e57d09789227",
+      "date": "2026-11-21",
+      "slotId": "slot-11",
+      "classId": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "5d925e7f-7878-4f0b-80e6-7900702ce986",
+      "date": "2026-11-22",
+      "slotId": "slot-15",
+      "classId": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "7692c567-d3ea-46b3-9069-c630d5aae7aa",
+      "date": "2026-11-22",
+      "slotId": "slot-16",
+      "classId": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "4a358e13-346d-48a4-85c1-03cea347815c",
+      "date": "2026-11-16",
+      "slotId": "slot-0",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "6a85b719-1d91-413b-b741-658d82459a1a",
+      "date": "2026-11-16",
+      "slotId": "slot-1",
+      "classId": "c9cfac17-4453-4b40-b91d-f62df1dacfed",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "4d4cc91d-7438-43ab-b5af-8f8a73d71529",
+      "date": "2026-11-18",
+      "slotId": "slot-4",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "ea3cd490-42a5-4573-a210-62ae2f473b23",
+      "date": "2026-11-18",
+      "slotId": "slot-5",
+      "classId": "c9cfac17-4453-4b40-b91d-f62df1dacfed",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "7bcd4e15-7dd4-4cc8-9207-265df6650b9a",
+      "date": "2026-11-21",
+      "slotId": "slot-10",
+      "classId": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "aaf94cc6-cf39-4bb1-afb1-50311b52a49e",
+      "date": "2026-11-21",
+      "slotId": "slot-11",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "711cff79-f1ae-4d3e-90cf-9d45d767095e",
+      "date": "2026-11-22",
+      "slotId": "slot-16",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "e9b61b6d-ce24-4712-aae7-94a1a850f468",
+      "date": "2026-11-23",
+      "slotId": "slot-1",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "f794aa08-d8cd-47de-a4d4-00b620d75ed6",
+      "date": "2026-11-25",
+      "slotId": "slot-4",
+      "classId": "6b86d132-c04b-4b9b-b917-99e4d5834d50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "9207431d-0318-4171-a2dd-9378dc7da537",
+      "date": "2026-11-25",
+      "slotId": "slot-5",
+      "classId": "026fe445-d4b0-4731-87ed-5ccac1a7948f",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "4b458ec0-af7b-4032-bff1-c5c1e2fa6d75",
+      "date": "2026-11-26",
+      "slotId": "slot-6",
+      "classId": "38fa23cd-0685-4439-877e-984d64087a1e",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "4a1ffbf2-0b24-47b5-8876-ff9b6f380432",
+      "date": "2026-11-26",
+      "slotId": "slot-7",
+      "classId": "81a0c16e-13a1-453c-aeb3-4ab3e94c95fc",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "6f0e03d6-164e-4d3d-a0e6-e19bea49d170",
+      "date": "2026-11-27",
+      "slotId": "slot-9",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "70f6294e-a58d-4429-b7ca-ed56f0aefde3",
+      "date": "2026-11-28",
+      "slotId": "slot-11",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "2eeff1e5-be2e-47f3-9820-de4e2f6967b8",
+      "date": "2026-11-28",
+      "slotId": "slot-12",
+      "classId": "046a4693-04da-464f-b857-89d5bffcfe50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "1f9b3841-c624-4ae4-9c0a-316409676ffc",
+      "date": "2026-11-28",
+      "slotId": "slot-14",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "a92ed2fa-8960-444c-a15f-9e24bc66bb33",
+      "date": "2026-11-23",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "3a55536f-ab60-4d92-af81-a28d90eef519",
+      "date": "2026-11-23",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "461a1850-d8ec-4884-a778-bd189172921a",
+      "date": "2026-11-24",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "cd841375-d18c-4564-8ca7-ee023f575479",
+      "date": "2026-11-25",
+      "slotId": "slot-4",
+      "classId": "33b78c52-b370-4f03-a99c-f819c8a4fda5",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "7747ed05-8ae8-402d-81ce-a0ce9a217629",
+      "date": "2026-11-28",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "81440cd7-7cd3-48e0-9192-122e71cff66a",
+      "date": "2026-11-28",
+      "slotId": "slot-13",
+      "classId": "c280ed5d-3f24-4bba-a1fc-00faa34caac2",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "f7bca443-9832-4e35-a574-c0c291c0151b",
+      "date": "2026-11-23",
+      "slotId": "slot-1",
+      "classId": "3372a2f0-5e37-4a8a-b795-1b3d1abe4edb",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "01267861-ba6b-417b-9de9-93aca08ff818",
+      "date": "2026-11-25",
+      "slotId": "slot-5",
+      "classId": "3372a2f0-5e37-4a8a-b795-1b3d1abe4edb",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "673a778c-625c-43d0-8398-ee326a04ba20",
+      "date": "2026-11-28",
+      "slotId": "slot-12",
+      "classId": "9491537f-5820-4789-b2c3-caf3c49b1cf1",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "967fc4a4-3d70-4b2e-8071-9d64bca1e0ce",
+      "date": "2026-11-29",
+      "slotId": "slot-17",
+      "classId": "9491537f-5820-4789-b2c3-caf3c49b1cf1",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "4f2e4df0-203e-4c42-9b07-c8a5158956ed",
+      "date": "2026-11-23",
+      "slotId": "slot-0",
+      "classId": "71f003d4-cfc0-4e47-a90c-2c4c9f6af716",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "59c7ae9b-55d3-448c-8ece-43212a90f1a7",
+      "date": "2026-11-23",
+      "slotId": "slot-1",
+      "classId": "3b07eecb-4317-465d-9811-c25ffcc98d0f",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "de5b3239-3c1a-40da-9aad-e1f27e5f2071",
+      "date": "2026-11-25",
+      "slotId": "slot-4",
+      "classId": "71f003d4-cfc0-4e47-a90c-2c4c9f6af716",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "199927e4-1031-47a6-bbc1-46523cec666e",
+      "date": "2026-11-25",
+      "slotId": "slot-5",
+      "classId": "3b07eecb-4317-465d-9811-c25ffcc98d0f",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "6bad1266-82b2-45f7-94f0-2dd25d7793a0",
+      "date": "2026-11-28",
+      "slotId": "slot-10",
+      "classId": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "d11e66ee-975b-4882-9b9d-1b916c1cfadc",
+      "date": "2026-11-28",
+      "slotId": "slot-11",
+      "classId": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "40b4b3b0-7589-4f0b-8322-0fb2c9cf7caf",
+      "date": "2026-11-29",
+      "slotId": "slot-15",
+      "classId": "7180ce04-dfc3-489d-8a33-d62c10fa505d",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "a6cfc99e-ebb3-4220-9143-33547049d7c5",
+      "date": "2026-11-29",
+      "slotId": "slot-16",
+      "classId": "02751a5f-cee0-4cc7-90c3-e3680c538453",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "bb534150-aeec-4b2d-90c8-d892487164b2",
+      "date": "2026-11-23",
+      "slotId": "slot-0",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "c0068248-ad4a-4b1f-95c1-36e5046a50d7",
+      "date": "2026-11-23",
+      "slotId": "slot-1",
+      "classId": "c9cfac17-4453-4b40-b91d-f62df1dacfed",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "2ed71b94-0337-4e4c-a7a9-8b0ba82c752c",
+      "date": "2026-11-25",
+      "slotId": "slot-4",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "560e7454-d1a3-4ac3-b7ee-a773352a0f72",
+      "date": "2026-11-25",
+      "slotId": "slot-5",
+      "classId": "c9cfac17-4453-4b40-b91d-f62df1dacfed",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "e5a938a0-170c-415f-8df1-a7731702e855",
+      "date": "2026-11-28",
+      "slotId": "slot-11",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "749a5349-c15f-4327-b5ed-ee086dab8aa9",
+      "date": "2026-11-29",
+      "slotId": "slot-16",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "d3b62bc6-9831-46fb-9a8c-77b4c08a78b3",
+      "date": "2026-11-30",
+      "slotId": "slot-1",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "0545ef15-da31-44cb-9360-201fe3039f3a",
+      "date": "2026-12-01",
+      "slotId": "slot-3",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "f4a636ae-3b76-4f0f-ba21-f091a42b02f4",
+      "date": "2026-12-02",
+      "slotId": "slot-4",
+      "classId": "6b86d132-c04b-4b9b-b917-99e4d5834d50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "b7f96730-5211-4722-8859-9e7b520270df",
+      "date": "2026-12-02",
+      "slotId": "slot-5",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "ef84a14e-47c2-4d32-97aa-088830704faa",
+      "date": "2026-12-03",
+      "slotId": "slot-7",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "12b2f1e9-7647-4e21-be98-1a145ebdc76e",
+      "date": "2026-12-04",
+      "slotId": "slot-8",
+      "classId": "918a7ca0-220e-44b6-bc8c-56b801a03695",
+      "minutes": 60,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "9ae9d6df-b09f-4cb0-a890-362ca2b4d697",
+      "date": "2026-12-04",
+      "slotId": "slot-9",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "7601ff7b-d36d-4278-a5be-458a43e66a4a",
+      "date": "2026-12-05",
+      "slotId": "slot-11",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "18445352-e8e1-4261-a6db-7b7b623db3b7",
+      "date": "2026-12-05",
+      "slotId": "slot-12",
+      "classId": "d90c9207-422c-45ff-957d-3b1659992b65",
+      "minutes": 0,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "6696bb33-133c-45be-9c4c-187b86713b2e",
+      "date": "2026-12-05",
+      "slotId": "slot-13",
+      "classId": "d90c9207-422c-45ff-957d-3b1659992b65",
+      "minutes": 0,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "0f3f8324-c19b-4841-a84b-7bdf0d589a91",
+      "date": "2026-12-05",
+      "slotId": "slot-14",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "a25e46f3-1bd0-4c65-86de-52e46ae1f319",
+      "date": "2026-12-06",
+      "slotId": "slot-16",
+      "classId": "fab75576-af8a-458f-8bee-5b8533f8906c",
+      "minutes": 60,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "3a608242-cb75-4884-a51c-840c0b6be521",
+      "date": "2026-12-06",
+      "slotId": "slot-17",
+      "classId": "046a4693-04da-464f-b857-89d5bffcfe50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "1d5b38b9-91f1-43b3-b912-ec7e28465e9e",
+      "date": "2026-11-30",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "2a6b1d2a-216b-4a07-878c-144cb7171652",
+      "date": "2026-11-30",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "bf1028f9-6978-4719-9bbe-2bab58bc2f82",
+      "date": "2026-12-01",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "530193ad-4ec2-46ef-81f7-1e153cda14b5",
+      "date": "2026-12-02",
+      "slotId": "slot-4",
+      "classId": "33b78c52-b370-4f03-a99c-f819c8a4fda5",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "4920bb3c-81a4-4a65-8ed9-655881f053a9",
+      "date": "2026-12-05",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "6b120823-50a2-4444-aa51-440959e6f9a4",
+      "date": "2026-12-05",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "d0e8c1cf-73cf-4636-8705-8dd57f709166",
+      "date": "2026-12-02",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "a0bfc687-00a2-4ce2-aaab-08da8175cba9",
+      "date": "2026-12-02",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "8017b874-4f68-431b-af5b-fc999d01cbce",
+      "date": "2026-12-03",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "e0cbbd9f-dcb8-4e5e-bc4f-796efe053c16",
+      "date": "2026-12-05",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "0f54aa02-e6c4-466a-b9b5-02910b04fec1",
+      "date": "2026-11-30",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "170f8523-eaf8-419e-a2c8-94de69a8b308",
+      "date": "2026-11-30",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "cf4917d7-a202-48f7-9196-962bb9ad13e5",
+      "date": "2026-12-02",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "dbd90660-ba4b-45af-8812-f6d803f5b232",
+      "date": "2026-12-02",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "0da19fd4-da24-4686-a078-dc96a6fabfc5",
+      "date": "2026-12-05",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "7535afe8-d7a3-492b-8f89-5e1a8006320c",
+      "date": "2026-11-30",
+      "slotId": "slot-0",
+      "classId": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "f4d6fb1b-fa0f-465a-a38c-2401a03407c6",
+      "date": "2026-12-02",
+      "slotId": "slot-4",
+      "classId": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "ce39e836-05fb-4973-b46e-c93c05a0a8d8",
+      "date": "2026-11-30",
+      "slotId": "slot-0",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "02469fae-e52d-469d-80d0-ed1cbe4d39c3",
+      "date": "2026-12-02",
+      "slotId": "slot-4",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "8fb96b32-992c-4c3c-a60c-6e07c945dc48",
+      "date": "2026-12-05",
+      "slotId": "slot-10",
+      "classId": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "aa02b3db-a79a-46eb-ab4f-7e88b21e146d",
+      "date": "2026-12-05",
+      "slotId": "slot-11",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "87e07189-0f50-4616-bc30-34fcd2e2c8a5",
+      "date": "2026-12-06",
+      "slotId": "slot-15",
+      "classId": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "21d5eb15-6610-4a76-9d41-be1a0de7ff6f",
+      "date": "2026-12-06",
+      "slotId": "slot-16",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "29438697-c1e5-43f9-b0a1-9d871c65bc49",
+      "date": "2026-12-01",
+      "slotId": "slot-2",
+      "classId": "2b2c60fd-8f88-4d38-847a-4d3a970905a2",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "6ae7b810-dea9-47fd-93fe-4b458532a4c6",
+      "date": "2026-12-03",
+      "slotId": "slot-6",
+      "classId": "2b2c60fd-8f88-4d38-847a-4d3a970905a2",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "0423aa9e-1c5f-484e-aa6a-2476598de5a2",
+      "date": "2026-12-05",
+      "slotId": "slot-10",
+      "classId": "567a79c6-db07-4345-adbb-0b1138cf9cf5",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "84de1ea9-b1e4-4162-b55d-804982b4e85c",
+      "date": "2026-12-01",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "ed7bd8de-efe0-4dca-922d-0aaf13be54ec",
+      "date": "2026-12-03",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "41fea800-c9fd-453f-b26f-4009e45175c8",
+      "date": "2026-12-08",
+      "slotId": "slot-3",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "df5b9e44-494f-4812-82b5-26fb7f649b92",
+      "date": "2026-12-09",
+      "slotId": "slot-5",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "a08ff4f5-62e1-42cc-bca1-e355b3b6ffc6",
+      "date": "2026-12-10",
+      "slotId": "slot-7",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "075be47d-6cf1-4bd5-a906-a61fe630b2a7",
+      "date": "2026-12-11",
+      "slotId": "slot-9",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "90b7f1a3-156b-43fa-a2d4-4655e3d253ba",
+      "date": "2026-12-12",
+      "slotId": "slot-14",
+      "classId": "65491bd0-1f7e-4d8f-80e1-ea7c04a4d665",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "abf94f54-f5d6-4839-8081-6483571ec558",
+      "date": "2026-12-13",
+      "slotId": "slot-17",
+      "classId": "046a4693-04da-464f-b857-89d5bffcfe50",
+      "minutes": 120,
+      "teacherIds": [
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd"
+      ],
+      "roles": {
+        "3603eacf-cda2-4587-81b5-20b61ca4b3fd": "PRIMARY"
+      }
+    },
+    {
+      "id": "ab73f8c2-e4a7-4641-b8f2-5b0c6284c82a",
+      "date": "2026-12-07",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "6e9d5a06-4647-4f40-b53d-1db4fe11addd",
+      "date": "2026-12-07",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "970b54d6-103a-4e1e-8a5b-90749e8a0986",
+      "date": "2026-12-08",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "3419d650-5caf-4c7e-bd2d-83f70e451a25",
+      "date": "2026-12-09",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "4c37ff4f-39c6-4b7d-9ee6-8b6f597a2d6c",
+      "date": "2026-12-10",
+      "slotId": "slot-7",
+      "classId": "2431c2fe-c67a-4ffc-9d87-c74dbbe254da",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "624bb301-558a-42da-861f-631fa1ef7505",
+      "date": "2026-12-12",
+      "slotId": "slot-12",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "0b042d00-5203-4a61-8ec7-efff0193d772",
+      "date": "2026-12-12",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "7d631a33-0aa9-455e-8848-1906144a0317"
+      ],
+      "roles": {
+        "7d631a33-0aa9-455e-8848-1906144a0317": "PRIMARY"
+      }
+    },
+    {
+      "id": "b99e27dc-1d22-4689-be70-a99cafc54d9d",
+      "date": "2026-12-09",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "2748c4c2-4c81-46ea-88e5-e36e2d74b9ad",
+      "date": "2026-12-09",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "b7946a0f-c684-4048-8add-ee5679f4e413",
+      "date": "2026-12-10",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "6a448ab4-c2ca-474e-abda-117c1363939a",
+      "date": "2026-12-11",
+      "slotId": "slot-8",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "0e3a46ee-e201-408d-b722-f88871fb684c",
+      "date": "2026-12-13",
+      "slotId": "slot-17",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "teacherIds": [
+        "a3492752-74fa-41dc-a43d-379610080ca4"
+      ],
+      "roles": {
+        "a3492752-74fa-41dc-a43d-379610080ca4": "PRIMARY"
+      }
+    },
+    {
+      "id": "ca7fb549-1781-406a-bc2a-8cb8fd52e009",
+      "date": "2026-12-07",
+      "slotId": "slot-1",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "8e5e760f-58e9-4c66-9104-2a4c9fc14f6b",
+      "date": "2026-12-13",
+      "slotId": "slot-18",
+      "classId": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "minutes": 120,
+      "teacherIds": [],
+      "roles": {},
+      "deleted": true
+    },
+    {
+      "id": "a8451bb6-fd96-4be5-b624-88dd8c72e897",
+      "date": "2026-12-07",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "42de017b-e02f-4eb6-b297-91bbb5901190",
+      "date": "2026-12-07",
+      "slotId": "slot-1",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "9146664e-69e1-4db5-9cac-524c587c9e87",
+      "date": "2026-12-09",
+      "slotId": "slot-4",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "6e0097b5-c69c-402f-9f88-8e77f25425e0",
+      "date": "2026-12-09",
+      "slotId": "slot-5",
+      "classId": "9443e0e8-ffe2-4c92-bbb0-7e4e65fa50f0",
+      "minutes": 90,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "8c18667f-833a-46cf-9428-e23a82bd6d40",
+      "date": "2026-12-12",
+      "slotId": "slot-13",
+      "classId": "7398ba9a-5f07-4894-a6c2-f70e10f7e013",
+      "minutes": 120,
+      "teacherIds": [
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7"
+      ],
+      "roles": {
+        "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7": "PRIMARY"
+      }
+    },
+    {
+      "id": "41f10fab-8d28-41e1-b2f7-50c91513c380",
+      "date": "2026-12-07",
+      "slotId": "slot-0",
+      "classId": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "4586bc59-54a0-4517-8267-d5fd138ff0b5",
+      "date": "2026-12-09",
+      "slotId": "slot-4",
+      "classId": "a7be6cd5-3903-44aa-97fc-53ffb374b715",
+      "minutes": 120,
+      "teacherIds": [
+        "30a3db12-6de0-40c8-ad52-62c1392a359f"
+      ],
+      "roles": {
+        "30a3db12-6de0-40c8-ad52-62c1392a359f": "PRIMARY"
+      }
+    },
+    {
+      "id": "1c31bc5e-30d3-407e-a112-5e37db43d862",
+      "date": "2026-12-07",
+      "slotId": "slot-0",
+      "classId": "bfd7f79c-5b12-4830-9ed5-40c32c6ba29d",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "315e5c2c-46eb-4439-b03d-4d6bda3b1e77",
+      "date": "2026-12-09",
+      "slotId": "slot-5",
+      "classId": "6ca4cdb7-1154-4a4d-afaa-5b5560b70980",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "1ca5e733-971a-43ba-b146-133d907898aa",
+      "date": "2026-12-12",
+      "slotId": "slot-10",
+      "classId": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "afe9f70a-e41e-453a-90b5-4e1727f5c932",
+      "date": "2026-12-12",
+      "slotId": "slot-11",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "3f958519-b160-4dae-aaac-aa37f246cad1",
+      "date": "2026-12-13",
+      "slotId": "slot-15",
+      "classId": "4613b10c-73cc-4e2b-a5bf-35fbda4ea1fe",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "17473180-2d1b-44ee-b45f-343059074546",
+      "date": "2026-12-13",
+      "slotId": "slot-16",
+      "classId": "704606b4-a0d2-42f7-90c2-9b8b2fb3d6a7",
+      "minutes": 120,
+      "teacherIds": [
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83"
+      ],
+      "roles": {
+        "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83": "PRIMARY"
+      }
+    },
+    {
+      "id": "7cfd3961-a9ad-4c43-bf4a-41e595eb9bfa",
+      "date": "2026-12-08",
+      "slotId": "slot-2",
+      "classId": "2b2c60fd-8f88-4d38-847a-4d3a970905a2",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "7f67465c-eef9-4b6a-93b6-106a24781040",
+      "date": "2026-12-10",
+      "slotId": "slot-6",
+      "classId": "2b2c60fd-8f88-4d38-847a-4d3a970905a2",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "d406c619-a0e4-4db0-a8ef-58d051509d09",
+      "date": "2026-12-12",
+      "slotId": "slot-10",
+      "classId": "567a79c6-db07-4345-adbb-0b1138cf9cf5",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "34b2eefc-a728-4cb5-a318-1854d1bce2ec",
+      "date": "2026-12-13",
+      "slotId": "slot-15",
+      "classId": "567a79c6-db07-4345-adbb-0b1138cf9cf5",
+      "minutes": 120,
+      "teacherIds": [
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6"
+      ],
+      "roles": {
+        "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6": "PRIMARY"
+      }
+    },
+    {
+      "id": "985e5a84-fc3e-42fd-987e-2fbf353bd0de",
+      "date": "2026-12-08",
+      "slotId": "slot-2",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    },
+    {
+      "id": "85bedbe1-827e-4e48-8d0b-8099e26646f5",
+      "date": "2026-12-10",
+      "slotId": "slot-6",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "teacherIds": [
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1"
+      ],
+      "roles": {
+        "e52b91dd-3331-487d-a1c0-7a157e7d6db1": "PRIMARY"
+      }
+    }
+  ],
+  "recurring": [
+    {
+      "id": "8052d8da-21a2-41de-a8a2-0e765029a1c0",
+      "teacherId": "3603eacf-cda2-4587-81b5-20b61ca4b3fd",
+      "slotId": "slot-3",
+      "status": "UNAVAILABLE",
+      "from": "2026-11-24"
+    }
+  ],
+  "overrides": [
+    {
+      "id": "799231c1-48fe-4b41-b316-1605395fd830",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-0",
+      "date": "2026-11-02",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "775d67de-0984-45c6-a12b-7ca1acc07417",
+      "teacherId": "3603eacf-cda2-4587-81b5-20b61ca4b3fd",
+      "slotId": "slot-18",
+      "date": "2026-11-15",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "2ccd61fa-3bee-440e-8bd1-e743dac7dc07",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-0",
+      "date": "2026-11-09",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "d2970d1f-eb17-468e-8c37-c0f03a0a9975",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-10",
+      "date": "2026-11-14",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "bb9eae87-b417-42f0-a5a3-d3ec8bbb6175",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-11",
+      "date": "2026-11-14",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "1cc8e889-8299-466b-b0b0-e93e4118e81b",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-16",
+      "date": "2026-11-15",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "5a17e73b-2a33-4c11-bd76-18d0042c1df5",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-0",
+      "date": "2026-11-09",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "ece545d6-157d-493f-899f-d3516f0f40af",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-1",
+      "date": "2026-11-09",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "b7269fe8-fd9d-47cd-8030-a6e71289ede5",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-3",
+      "date": "2026-12-01",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "942181cf-8a8b-41b0-9352-dd6bb5c0e5f7",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-7",
+      "date": "2026-12-03",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "e32f5668-49cc-4ed5-9ba8-42ab19489b24",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-8",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "ff2ae6c5-1ec0-4551-9759-04c5943b5ab2",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-9",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "face57dd-4ac8-46fa-82ca-23d3717430c1",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-10",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "cd0a6202-df1e-47a3-a6a2-9a2cbe079bea",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-11",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "b703bffd-b122-4121-bd6c-197d250b3acc",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-15",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "39ee9706-d5e2-41cf-ba0c-128af4492442",
+      "teacherId": "537f45e5-a6dc-4763-aaf3-8ddb1fafeca7",
+      "slotId": "slot-16",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "804c68f8-388e-4796-a921-29a18f8264fe",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-3",
+      "date": "2026-12-01",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "96240a60-5d5c-4267-ba0a-08d531f9f4e1",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-7",
+      "date": "2026-12-03",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "191508e9-350a-4b14-a74a-0b83f819200c",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-8",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "8dde9b96-52b9-4961-8493-d38dcf2e6d5d",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-9",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "fe05b98b-52c2-4634-b224-16bb504ac712",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-10",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "ec6f3a6d-c3cc-46eb-854a-eb8d427db681",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-11",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "7266099e-0024-420f-b5f6-b41ef55cc7c4",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-13",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "91b397a1-a220-4c06-9edd-344fe0e31d7e",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-14",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "01986e97-dd09-4b5d-b019-77433910fdfe",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-15",
+      "date": "2026-12-06",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "1891cc5a-7162-4017-b1ca-9660432e0fdc",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-16",
+      "date": "2026-12-06",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "7ebe2bec-99de-455f-a832-76abeba4fb00",
+      "teacherId": "30a3db12-6de0-40c8-ad52-62c1392a359f",
+      "slotId": "slot-18",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "20c3c993-0de0-47fd-9e05-ecf29f5cee90",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-2",
+      "date": "2026-12-01",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "b6e77044-83e1-498c-bbd7-8fa7654edadc",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-3",
+      "date": "2026-12-01",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "e6c1bd2a-964a-493c-b2f1-d133205fe135",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-6",
+      "date": "2026-12-03",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "ebd25e13-9cac-4bc1-9a84-c8861ab23d3a",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-7",
+      "date": "2026-12-03",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "ea79c033-1cdd-45f9-a01c-b27c6bd18e3e",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-8",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "4a5b97f8-6f72-4a74-874d-0e4c23f67f5a",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-9",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "903f030c-eb8c-4756-aa77-1d2118f95efc",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-12",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "39c0f257-8817-4e2e-a8aa-24459dcd77b5",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-13",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "38cbf5d8-ffd3-4cfa-9ebe-00d88a6c819d",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-14",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "7cee1789-e308-4214-9f20-8a53e703ceb4",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-17",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "6867b483-28a4-4d53-a838-0d3206a080f7",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-18",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "49946314-ac2b-4d35-b96c-8a6ef90f32da",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-0",
+      "date": "2026-11-30",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "68cd2014-9a0f-40bb-81ee-32ab4bd4ab89",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-1",
+      "date": "2026-11-30",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "90e6080c-6765-42de-8d57-f7d694a5b996",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-4",
+      "date": "2026-12-02",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "f299544c-492e-4274-9cff-3814fd566dad",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-5",
+      "date": "2026-12-02",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "e2906113-2c8e-49ce-8946-8e990aed91ec",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-8",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "f4763da7-e3c0-4fbf-81a2-c8f1d73c5383",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-9",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "334e5278-e319-43fc-a16a-f0b10a8176dd",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-14",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "b4192648-447b-4970-82df-e03f785a5509",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-18",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "0018fd5f-5462-439d-9da2-2656647518c1",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-0",
+      "date": "2026-11-30",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "99b1f2f3-abb8-407d-8f50-d141c9442751",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-1",
+      "date": "2026-11-30",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "60c13f54-a5bf-4c88-a2c6-e0d3d12d5a51",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-4",
+      "date": "2026-12-02",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "2e8e1b81-6c2a-4dd9-b07a-c8ab32fe24c8",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-5",
+      "date": "2026-12-02",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "7ab5e529-6ec4-4c6f-97cd-77cadf993764",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-8",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "1631e5ab-853f-4b8d-a5e8-dab2ee86f3a6",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-9",
+      "date": "2026-12-04",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "7134f132-c5a7-4fd5-93a6-d73699daf2e4",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-10",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "8546b133-f80d-49f0-a77d-2f9812c5fb4f",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-11",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "bc5dcd93-be97-4401-a0a3-3f85de9c0a73",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-14",
+      "date": "2026-12-05",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "42240360-7b95-40e2-90c6-f66f462a96e8",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-15",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "18715625-6efb-4808-8445-6d6b98a40997",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-18",
+      "date": "2026-12-06",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "3eb1de49-68b3-4c30-9c6a-fe6fd1bcec4b",
+      "teacherId": "3603eacf-cda2-4587-81b5-20b61ca4b3fd",
+      "slotId": "slot-18",
+      "date": "2026-12-13",
+      "status": "SUB_AVAILABLE"
+    },
+    {
+      "id": "8037c3c1-42cb-451d-b379-af48362b7532",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-2",
+      "date": "2026-12-08",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "532c9810-3de6-46d7-89af-e9ba1d433136",
+      "teacherId": "e2e04dd3-f5d5-4e43-9b1d-77af17e92f83",
+      "slotId": "slot-3",
+      "date": "2026-12-08",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "eb38bf74-caf1-48be-a9c7-bdb4672ab24e",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-0",
+      "date": "2026-12-07",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "d1d47b93-8a04-4197-b794-c956f9d5eddb",
+      "teacherId": "9017bc79-9fd6-4b32-aafd-6ea7eae61ae6",
+      "slotId": "slot-1",
+      "date": "2026-12-07",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "0f73ab88-a481-4c78-bd66-28309180e09e",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-0",
+      "date": "2026-12-07",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "id": "b6748942-dc95-4856-913d-42da28da34a4",
+      "teacherId": "e52b91dd-3331-487d-a1c0-7a157e7d6db1",
+      "slotId": "slot-1",
+      "date": "2026-12-07",
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "offs": [],
+  "students": [
+    {
+      "id": "bbe4df4f-4f85-458c-a665-32d92802b222",
+      "name": "Nguyễn Hihi",
+      "normalizedName": "nguyễn hihi",
+      "dob": "2026-11-13"
+    },
+    {
+      "id": "f47977dd-65fe-4a9c-baff-693d43e976a8",
+      "name": "Trần Huhu",
+      "normalizedName": "trần huhu",
+      "dob": "2026-11-20"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "f30a5403-0fe9-4b0e-b728-7777e8be88e9",
+      "studentId": "bbe4df4f-4f85-458c-a665-32d92802b222",
+      "classId": "026fe445-d4b0-4731-87ed-5ccac1a7948f",
+      "note": "Hihi"
+    },
+    {
+      "id": "4c9eaf35-34fb-46f2-bcdb-2946a20cc001",
+      "studentId": "f47977dd-65fe-4a9c-baff-693d43e976a8",
+      "classId": "026fe445-d4b0-4731-87ed-5ccac1a7948f",
+      "note": "Huhu"
+    }
+  ],
+  "teacherCodeVersions": [],
+  "audit": [
+    {
+      "id": "90fc9fa7-8c04-4a40-a240-cbeceae1846f",
+      "at": "2026-11-28 20:36:08",
+      "actor": "Local POC user",
+      "action": "REMOVE",
+      "entity": "schedule_assignment",
+      "detail": "Removed assignment",
+      "before_data": "—",
+      "after_data": "Removed assignment"
+    },
+    {
+      "id": "658afd8e-126d-45a3-8dc2-36c6abcea5c0",
+      "at": "2026-11-28 20:36:03",
+      "actor": "Local POC user",
+      "action": "REMOVE",
+      "entity": "schedule_assignment",
+      "detail": "Removed assignment",
+      "before_data": "—",
+      "after_data": "Removed assignment"
+    },
+    {
+      "id": "8fec2e81-1b27-4d52-bcea-40d52de6d0ab",
+      "at": "2026-11-28 20:35:50",
+      "actor": "Local POC user",
+      "action": "UPDATE",
+      "entity": "availability",
+      "detail": "UNAVAILABLE",
+      "before_data": "—",
+      "after_data": "UNAVAILABLE"
+    },
+    {
+      "id": "0c0d65c4-4d90-4f9d-9de6-f3d3ef94bf86",
+      "at": "2026-11-28 20:35:21",
+      "actor": "Local POC user",
+      "action": "CREATE",
+      "entity": "external_sub_assignment",
+      "detail": "SKE6-C2601AV / SUB-2",
+      "before_data": "—",
+      "after_data": "SKE6-C2601AV / SUB-2"
+    },
+    {
+      "id": "52b13c4c-c2e1-424b-b798-445b7f5279f9",
+      "at": "2026-11-28 20:35:08",
+      "actor": "Local POC user",
+      "action": "CREATE",
+      "entity": "external_sub_assignment",
+      "detail": "HK3-C2601AV / SUB-1",
+      "before_data": "—",
+      "after_data": "HK3-C2601AV / SUB-1"
+    },
+    {
+      "id": "9e18ea2a-e939-4f72-90a8-b43dcf1219f2",
+      "at": "2026-11-28 20:34:34",
+      "actor": "Local POC user",
+      "action": "CREATE",
+      "entity": "extra_student_enrollment",
+      "detail": "Trần Huhu",
+      "before_data": "—",
+      "after_data": "Trần Huhu"
+    },
+    {
+      "id": "1adada6b-0572-44cd-a0eb-ba409c08702b",
+      "at": "2026-11-28 20:34:24",
+      "actor": "Local POC user",
+      "action": "CREATE",
+      "entity": "extra_student_enrollment",
+      "detail": "Nguyễn Hihi",
+      "before_data": "—",
+      "after_data": "Nguyễn Hihi"
+    },
+    {
+      "id": "8cb83453-ded3-4238-aaf6-222b35b658db",
+      "at": "2026-11-28 20:34:06",
+      "actor": "Local POC user",
+      "action": "REMOVE",
+      "entity": "day_off",
+      "detail": "b3f22087-6b69-4643-a9cf-df52cbf5a00c",
+      "before_data": "—",
+      "after_data": "b3f22087-6b69-4643-a9cf-df52cbf5a00c"
+    },
+    {
+      "id": "d134c8bb-c6ff-4c2f-8c50-d9ab4e77e399",
+      "at": "2026-11-28 20:34:00",
+      "actor": "Local POC user",
+      "action": "CREATE",
+      "entity": "day_off",
+      "detail": "AL",
+      "before_data": "—",
+      "after_data": "AL"
+    },
+    {
+      "id": "0979e47e-2ec5-4f4c-a824-05dc19687fd0",
+      "at": "2026-11-28 20:31:39",
+      "actor": "Local POC user",
+      "action": "RESET",
+      "entity": "demo",
+      "detail": "Restored original HTML seed",
+      "before_data": "—",
+      "after_data": "Restored original HTML seed"
+    }
+  ],
+  "prefixGroups": [
+    {
+      "id": "82b957f3-19c7-48c2-b866-7accd731de32",
+      "code": "HK",
+      "category": "Other",
+      "defaultMinutes": 90,
+      "color": "#00ffff"
+    },
+    {
+      "id": "90e16de1-4a8c-40c7-9297-53d105bc3e0a",
+      "code": "SKE",
+      "category": "SKE/SKG",
+      "defaultMinutes": 120,
+      "color": "#990000"
+    },
+    {
+      "id": "9d651d47-efee-4e86-a655-e7a683fddca6",
+      "code": "SKG",
+      "category": "SKE/SKG",
+      "defaultMinutes": 120,
+      "color": "#f4cccc"
+    },
+    {
+      "id": "ca173a7c-8f07-421e-ad6c-76ad653a781b",
+      "code": "PYL",
+      "category": "PYL/YL",
+      "defaultMinutes": 120,
+      "color": "#f9cb9c"
+    },
+    {
+      "id": "a78b377e-14e8-4a9e-a25a-c0bfa283a5d6",
+      "code": "YLC",
+      "category": "PYL/YL",
+      "defaultMinutes": 120,
+      "color": "#ffe599"
+    },
+    {
+      "id": "8bafc0cc-05ac-4f00-b460-4f4b678a42bd",
+      "code": "YLS",
+      "category": "PYL/YL",
+      "defaultMinutes": 120,
+      "color": "#f6b26b"
+    },
+    {
+      "id": "d0a780c3-fdd9-4e81-8629-59ba4f93829b",
+      "code": "FD",
+      "category": "Other",
+      "defaultMinutes": 120,
+      "color": "#b7e1cd"
+    },
+    {
+      "id": "cf0e54cc-48ee-4bad-978d-93da55d5f982",
+      "code": "ELE",
+      "category": "ELE/IL",
+      "defaultMinutes": 120,
+      "color": "#a2c4c9"
+    },
+    {
+      "id": "f5ca1bb8-84ef-41b7-af09-ef5f82c56591",
+      "code": "PIL",
+      "category": "Other",
+      "defaultMinutes": 120,
+      "color": "#a4c2f4"
+    },
+    {
+      "id": "941d5590-4283-44d0-9f45-690b7a75d5b2",
+      "code": "IL",
+      "category": "ELE/IL",
+      "defaultMinutes": 120,
+      "color": "#0b5394"
+    },
+    {
+      "id": "88022a41-ff22-4ee5-b957-7d1fd3952138",
+      "code": "TUOND",
+      "category": "Other",
+      "defaultMinutes": 60,
+      "color": "#b6d7a8"
+    },
+    {
+      "id": "d0a63f23-b640-4965-9c3e-7bc2c1a33e92",
+      "code": "TUIL",
+      "category": "Other",
+      "defaultMinutes": 60,
+      "color": "#b4c6e7"
+    },
+    {
+      "id": "9b48c256-8098-4082-bbc7-b7d436ef1166",
+      "code": "CORP",
+      "category": "Corp",
+      "defaultMinutes": 120,
+      "color": "#00b0f0"
+    },
+    {
+      "id": "45eaa07d-059d-48c1-97f5-c9e89a2e3067",
+      "code": "CAM",
+      "category": "Other",
+      "defaultMinutes": null,
+      "color": "#e8e8e8"
+    }
+  ],
+  "subAssignments": [
+    {
+      "id": "e1e98491-14ba-4c49-896d-2168130929f0",
+      "date": "2026-11-15",
+      "slotId": "slot-17",
+      "classId": "17107a19-8399-44d6-ae3d-2d7aed97fa2e",
+      "minutes": 120,
+      "externalTeacherCode": "Legacy external sub",
+      "deleted": false
+    },
+    {
+      "id": "d16b4254-ddc5-4418-ba47-10ca3592111b",
+      "date": "2026-11-15",
+      "slotId": "slot-18",
+      "classId": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "minutes": 120,
+      "externalTeacherCode": "Legacy external sub",
+      "deleted": false
+    },
+    {
+      "id": "e78d6886-3809-4316-9734-5dcbd035723b",
+      "date": "2026-11-17",
+      "slotId": "slot-3",
+      "classId": "b4b6a254-2fbe-4213-9dcd-dcd4fe8a92f1",
+      "minutes": 120,
+      "externalTeacherCode": "Legacy external sub",
+      "deleted": false
+    },
+    {
+      "id": "e6091c3a-4dc2-4ed2-b84e-f401d8e41106",
+      "date": "2026-11-19",
+      "slotId": "slot-7",
+      "classId": "ef8253b4-1a0d-423e-a0e2-9f57b58fd380",
+      "minutes": 120,
+      "externalTeacherCode": "Legacy external sub",
+      "deleted": false
+    },
+    {
+      "id": "c588feb0-e1f0-496f-a613-624d130a1893",
+      "date": "2026-12-07",
+      "slotId": "slot-1",
+      "classId": "fc4c87d8-1f9d-4d20-bd34-fb1bf8685e11",
+      "minutes": 120,
+      "externalTeacherCode": "Legacy external sub",
+      "deleted": false
+    },
+    {
+      "id": "4c6c1697-565f-43fb-9460-1872031ad643",
+      "date": "2026-12-13",
+      "slotId": "slot-18",
+      "classId": "6a016803-970d-45cd-ac28-60b502d14a34",
+      "minutes": 120,
+      "externalTeacherCode": "Legacy external sub",
+      "deleted": false
+    },
+    {
+      "id": "4fe840cc-ba68-46b1-98b5-9743b5ff0f50",
+      "date": "2026-11-23",
+      "slotId": "slot-0",
+      "classId": "8575545b-d288-4fde-ab4b-9c7525771b15",
+      "minutes": 90,
+      "externalTeacherCode": "SUB-1",
+      "deleted": false
+    },
+    {
+      "id": "9718cf3a-fc46-4c39-8f50-aeda4cbd5e95",
+      "date": "2026-11-23",
+      "slotId": "slot-0",
+      "classId": "e58ac714-e32f-450e-8442-47ddb1972f97",
+      "minutes": 120,
+      "externalTeacherCode": "SUB-2",
+      "deleted": false
+    }
+  ],
+  "subPoolSortInitialized": true
+}
